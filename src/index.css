@@ -1,0 +1,528 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.slick-slide > div{
+    margin:0 10px;
+}
+
+:root {
+    --font-sora: "Sora", sans-serif;
+    --font-code: "Source Code Pro", monospace;
+    --font-grotesk: "Space Grotesk", sans-serif;
+  }
+
+/* registerCard */
+/* From Uiverse.io by Tiagoadag */ 
+.glowCard {
+    width: 440px;
+    height: 454px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 50px;
+    transition: all .3s;
+   }
+   
+   .card2 {
+    width: 440px;
+    height: 454px;
+    background-color: #1a1a1a;
+    border-radius:40px;
+    transition: all .2s;
+    padding: 2rem;
+    color: white;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 50px;
+   }
+   
+   .glowCard:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+/* registerCard */
+
+
+
+/* contactCard */
+/* From Uiverse.io by Smit-Prajapati */ 
+.parent {
+  width: 690px;
+  height: 300px;
+  perspective: 1000px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .card {
+  height: 100%;
+  min-width: 400px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, rgb(91, 1, 134) 0%, rgb(29, 30, 30) 100%);
+  transition: all 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow: rgba(5, 71, 17, 0) 40px 50px 25px -40px, rgba(5, 71, 17, 0.2) 0px 25px 25px -5px;
+}
+
+.glass {
+  transform-style: preserve-3d;
+  position: absolute;
+  inset: 8px;
+  border-radius: 55px;
+  border-top-right-radius: 100%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.149) 0%, rgba(40, 0, 32, 0.815) 100%);
+  transform: translate3d(0px, 0px, 25px);
+  transition: all 0.5s ease-in-out;
+} */
+ 
+.card {
+  height: 100%;
+  min-width: 400px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, rgb(91, 1, 134) 0%, rgb(30, 0, 75) 100%);
+  transition: all 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow: rgba(5, 71, 17, 0) 40px 50px 25px -40px, rgba(5, 68, 71, 0.2) 0px 25px 25px -5px;
+}
+
+.glass {
+  transform-style: preserve-3d;
+  position: absolute;
+  inset: 8px;
+  border-radius: 55px;
+  border-top-right-radius: 100%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.149) 0%, rgba(40, 0, 32, 0.815) 100%);
+  /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.349) 0%, rgba(255, 255, 255, 0.815) 100%); */
+  /* -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); */
+  transform: translate3d(0px, 0px, 25px);
+  /* border-left: 1px solid white;
+  border-bottom: 1px solid white; */
+  transition: all 0.5s ease-in-out;
+}
+
+.content {
+  padding: 100px 60px 0px 30px;
+  transform: translate3d(0, 0, 26px);
+}
+
+.content .title {
+  display: block;
+  /* color: rgba(32, 32, 32, 0.765); */
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 0.7rem;
+}
+
+.content .text {
+  display: block;
+  /* color: rgba(32, 32, 32, 0.765); */
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.bottom {
+  padding: 10px 12px;
+  transform-style: preserve-3d;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translate3d(0, 0, 26px);
+}
+
+.bottom .view-more {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: flex-end;
+  transition: all 0.2s ease-in-out;
+}
+
+.bottom .view-more:hover {
+  transform: translate3d(0, 0, 10px);
+}
+
+.bottom .view-more .view-more-button {
+  background: none;
+  border: none;
+  color: #00c37b;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.bottom .view-more .svg {
+  fill: none;
+  stroke: #00c37b;
+  stroke-width: 3px;
+  max-height: 15px;
+}
+
+.bottom .social-buttons-container {
+  display: flex;
+  gap: 10px;
+  transform-style: preserve-3d; 
+  flex-direction: row-reverse;
+}
+
+.bottom .social-buttons-container .social-button {
+  width: 30px;
+  aspect-ratio: 1;
+  padding: 5px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: none;
+  display: grid;
+  place-content: center;
+  box-shadow: rgba(5, 71, 17, 0.5) 0px 7px 5px -5px;
+}
+
+.bottom .social-buttons-container .social-button:first-child {
+  transition: transform 0.2s ease-in-out 0.4s, box-shadow 0.2s ease-in-out 0.4s;
+}
+
+.bottom .social-buttons-container .social-button:nth-child(2) {
+  transition: transform 0.2s ease-in-out 0.6s, box-shadow 0.2s ease-in-out 0.6s;
+}
+
+.bottom .social-buttons-container .social-button:nth-child(3) {
+  transition: transform 0.2s ease-in-out 0.8s, box-shadow 0.2s ease-in-out 0.8s;
+}
+
+.bottom .social-buttons-container .social-button .svg {
+  width: 15px;
+  fill: #00894d;
+}
+
+.bottom .social-buttons-container .social-button:hover {
+  background: black;
+}
+
+.bottom .social-buttons-container .social-button:hover .svg {
+  fill: white;
+}
+
+.bottom .social-buttons-container .social-button:active {
+  background: rgb(255, 234, 0);
+}
+
+.bottom .social-buttons-container .social-button:active .svg {
+  fill: black;
+}
+
+.logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-style: preserve-3d;
+}
+
+.logo .circle {
+  display: block;
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  box-shadow: rgba(24, 197, 255, 0.2) -10px 10px 20px 0px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: rgba(53, 53, 53, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.logo .circle1 {
+  width: 170px;
+  transform: translate3d(0, 0, 20px);
+  top: 8px;
+  right: 8px;
+}
+
+.logo .circle2 {
+  width: 140px;
+  transform: translate3d(0, 0, 40px);
+  top: 10px;
+  right: 10px;
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  transition-delay: 0.4s;
+}
+
+.logo .circle3 {
+  width: 110px;
+  transform: translate3d(0, 0, 60px);
+  top: 17px;
+  right: 17px;
+  transition-delay: 0.8s;
+}
+
+.logo .circle4 {
+  width: 80px;
+  transform: translate3d(0, 0, 80px);
+  top: 23px;
+  right: 23px;
+  transition-delay: 1.2s;
+}
+
+.logo .circle5 {
+  width: 50px;
+  transform: translate3d(0, 0, 100px);
+  top: 30px;
+  right: 30px;
+  display: grid;
+  place-content: center;
+  transition-delay: 1.6s;
+}
+
+.logo .circle5 .svg {
+  width: 20px;
+  fill: white;
+}
+
+.parent:hover .card {
+  transform: rotate3d(1, 1, 0, 30deg);
+  box-shadow: rgba(5, 71, 17, 0.3) 30px 50px 25px -40px, rgba(5, 71, 17, 0.1) 0px 25px 30px 0px;
+}
+
+.parent:hover .card .bottom .social-buttons-container .social-button {
+  transform: translate3d(0, 0, 50px);
+  box-shadow: rgba(5, 71, 17, 0.2) -5px 20px 10px 0px;
+}
+
+.parent:hover .card .logo .circle2 {
+  transform: translate3d(0, 0, 60px);
+}
+
+.parent:hover .card .logo .circle3 {
+  transform: translate3d(0, 0, 80px);
+}
+
+.parent:hover .card .logo .circle4 {
+  transform: translate3d(0, 0, 100px);
+}
+
+.parent:hover .card .logo .circle5 {
+  transform: translate3d(0, 0, 120px);
+}
+
+
+
+
+/* contactCard */
+
+
+
+/* glowButton */
+
+.btn {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+.register:hover
+{
+  color: #ffffff;
+  background: #00694a;
+  border: 1px solid #00694a;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #00694a, 0 0 20px #00694a, 0 0 50px #00694a,
+    0 0 100px #00694a;
+}
+.explore:hover
+{
+  color: #ffffff;
+  background: #006bc3;
+  border: 1px solid #006bc3;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #006bc3, 0 0 20px #006bc3, 0 0 50px #006bc3,
+    0 0 100px #006bc3;
+}
+.btn-map {
+  padding: 2px 5px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: #ea4335;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: transparent;
+  /* border: 1px solid #ffffff80; */
+  transition: 0.5s ease;
+  user-select: none;
+}
+.map:hover
+{
+  color: #ffffff;
+  background: #ea4335;
+  border: 1px solid #ea4335;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #ea4335, 0 0 20px #ea4335, 0 0 50px #ea4335,
+    0 0 100px #ea4335;
+}
+.guidelines:hover
+{
+  color: #ffffff;
+  background: #ce2900;
+  border: 1px solid #ce2900;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #ce2900, 0 0 20px #ce2900, 0 0 50px #ce2900,
+    0 0 100px #ce2900;
+}
+
+
+/* glowButton */
+
+
+
+/* TeamCard */
+/* From Uiverse.io by Tiagoadag */ 
+.slimCard {
+  width: 400px;
+  height: 554px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 50px;
+  transition: all .3s;
+ }
+ 
+ .slimcard2 {
+  width: 400px;
+  height: 554px;
+  background-color: #1a1a1a;
+  border-radius:40px;
+  transition: all .2s;
+  padding: 1.5rem;
+  color: white;
+ }
+ 
+ .slimcard2:hover {
+  transform: scale(0.98);
+  border-radius: 50px;
+ }
+ 
+ .slimCard:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ }
+/* TeamCard */
+
+
+
+/* TicketCard */
+/* From Uiverse.io by Tiagoadag */ 
+.ticketCard {
+  width: 240px;
+  height: 310px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 50px;
+  transition: all .3s;
+ }
+ 
+ .ticketCard2 {
+  width: 240px;
+  height: 310px;
+  background-color: #1a1a1a;
+  border-radius:40px;
+  transition: all .2s;
+  padding: 1.5rem;
+  color: white;
+ }
+ 
+ .ticketCard2:hover {
+  transform: scale(0.98);
+  border-radius: 50px;
+ }
+ 
+ .ticketCard:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ }
+/* TicketCard */
+
+
+
+
+/* EventCard */
+/* From Uiverse.io by Tiagoadag */ 
+.eventCard {
+  width: 400px;
+  height: 454px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 50px;
+  transition: all .3s;
+ }
+ 
+ .eventCard2 {
+  width: 400px;
+  height: 454px;
+  background-color: #1a1a1a;
+  border-radius:40px;
+  transition: all .2s;
+  padding: 1.5rem;
+  color: white;
+ }
+ 
+ .eventCard2:hover {
+  transform: scale(0.98);
+  border-radius: 50px;
+ }
+ 
+ .eventCard:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ }
+/* EventCard */
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  /* contactCard   */
+  .card{
+    min-width: 350px;
+  }
+
+  /* TeamCard */
+  .slimCard{
+    width: 350px;
+    height: 554px;    
+  }
+  .slimcard2 {
+    width: 350px;
+    height: 554px;
+   }  
+
+/* registerCard */
+
+.glowCard{
+  width: 370px;
+  height: 440px;  
+}
+.card2 {
+  width: 370px;
+  height: 440px;
+}
+  
+}
+
+
