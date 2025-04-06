@@ -1,45 +1,46 @@
-import mahabaliChocolatePan from '../assets/events/soraren.webp'
 
 
-import dexter from '../assets/deptIncharge/IMG_3036 - Dexter Thoudam.webp'
-import lanmani from '../assets/deptIncharge/IMG_20250406_095625 - Lanmani Ch.webp'
-
-import korounganba from '../assets/deptIncharge/IMG_0141 - Korounganba Laishram.webp'
-import brijit from '../assets/deptIncharge/IMG-20250406-WA0002 - Kh Brijit singh.webp'
-import sidarth from '../assets/deptIncharge/IMG_20250406_094633961 - SIDARTH HAOBAM.webp'
-import satish from '../assets/deptIncharge/IMG_2734 - PHEIROIJAM SATISH LUWANG.webp'
-import diyabarta from '../assets/deptIncharge/1697647941951 - Diyabarta.webp'
+import dexter from '../assets/team/deptIncharge/IMG_3036 - Dexter Thoudam.webp'
+import lanmani from '../assets/team/deptIncharge/IMG_20250406_095625 - Lanmani Ch.webp'
+import yaiphaba from '../assets/team/deptIncharge/IMG-20250406-WA0028 - Yaiphaba Kh.webp'
 
 
-import lanngamba from '../assets/eventIncharge/IMG_241003_053601 - NAOROIBAM LANNGAMBA LUWANG.webp'
-import venus from '../assets/eventIncharge/B2C68E00-92BC-4B7B-98EA-FA2C7C135579 - LONGJAM VENUS SINGH.webp'
-import kilangleima from '../assets/eventIncharge/IMG_20250405_212940 - KILANGLEIMA CHINGSUBAM.webp'
-import tina from '../assets/eventIncharge/224f9aee-21ff-4c4b-93e3-26dcc79debe1 - Tina Salam.webp'
-import ryan from '../assets/eventIncharge/Kshetrimayum Ryan Singh  - KSHETRIMAYUM RYAN SINGH.webp'
-import bishan from '../assets/eventIncharge/20250405_105100 - BISHAN YENSEMBAM.webp'
-import pinky from '../assets/eventIncharge/IMG_2751 - Pinky Thokchom.webp'
-import pougui from '../assets/eventIncharge/IMG_2578 - KAMEI POUGUI.webp'
-import david from '../assets/eventIncharge/IMG_20250405_150947 - David Yengkhom.webp'
-import mangangamba from '../assets/eventIncharge/IMG_7167 - Mangangamba Oinam.webp'
-import bronson from '../assets/eventIncharge/IMG_20250405_160332 - BRONSUN SOUBAM.webp'
-import sanjana from '../assets/eventIncharge/20250405_181754 - SANJANA TAKHELLAMBAM.webp'
-import mahesh from '../assets/eventIncharge/IMG_20250405_212007 - KHUMANTHEM MAHESH SINGH.webp'
-import chaoba from '../assets/eventIncharge/InShot_20250405_211906693 - LEISHANGTHEM CHAOBA DEVI.webp'
-import yaikhomba from '../assets/eventIncharge/IMG-20250405-WA0008 - Yaikhomba Wairokpam.webp'
-import bikash from '../assets/eventIncharge/IMG_20250405_205334 - KONSAM BIKASH SINGH.webp'
-import avidas from '../assets/eventIncharge/InShot_20250406_095404316 - AVIDAS TAKHELLAMBAM.webp'
-import sadananda from '../assets/eventIncharge/IMG_20250405_211120 - WAIKHOM SADANANDA SINGH.webp'
-import wilson from '../assets/eventIncharge/IMG_20250405_211912 - WILSON THANGJAM.webp'
-import alonika from '../assets/eventIncharge/IMG_0308 - Alonika Grey.webp'
-import diviyarani from '../assets/eventIncharge/IMG_20250406_055434 - MONGJAM DIVIYARANI DEVI.webp'
-import derrick from '../assets/eventIncharge/IMG_6709 - K derrick Konjengbam.webp'
-import krishnakanta from '../assets/eventIncharge/IMG_2697 - Khris Young.webp'
-import gaithoijin from '../assets/eventIncharge/IMG_3223-modified - Gaithoizin panmei.webp'
-import devakar from '../assets/eventIncharge/IMG_20250406_112713 - LAISHRAM DEVAKAR SINGH.jpg'
-import clinton from '../assets/eventIncharge/Screenshot_20231206_124352_Gmail - THONGAM CLINTON SINGH.jpg'
+import korounganba from '../assets/team/deptIncharge/IMG_0141 - Korounganba Laishram.webp'
+import brijit from '../assets/team/deptIncharge/IMG-20250406-WA0002 - Kh Brijit singh.webp'
+import sidarth from '../assets/team/deptIncharge/IMG_20250406_094633961 - SIDARTH HAOBAM.webp'
+import satish from '../assets/team/deptIncharge/IMG_2734 - PHEIROIJAM SATISH LUWANG.webp'
+import diyabarta from '../assets/team/deptIncharge/diyabarta.webp'
 
 
-import ricky from '../assets/technical/ricky.webp'
+import lanngamba from '../assets/team/eventIncharge/IMG_241003_053601 - NAOROIBAM LANNGAMBA LUWANG.webp'
+import venus from '../assets/team/eventIncharge/B2C68E00-92BC-4B7B-98EA-FA2C7C135579 - LONGJAM VENUS SINGH.webp'
+import kilangleima from '../assets/team/eventIncharge/IMG_20250405_212940 - KILANGLEIMA CHINGSUBAM.webp'
+import tina from '../assets/team/eventIncharge/224f9aee-21ff-4c4b-93e3-26dcc79debe1 - Tina Salam.webp'
+import ryan from '../assets/team/eventIncharge/Kshetrimayum Ryan Singh  - KSHETRIMAYUM RYAN SINGH.webp'
+import bishan from '../assets/team/eventIncharge/20250405_105100 - BISHAN YENSEMBAM.webp'
+import pinky from '../assets/team/eventIncharge/IMG_2751 - Pinky Thokchom.webp'
+import pougui from '../assets/team/eventIncharge/IMG_2578 - KAMEI POUGUI.webp'
+import david from '../assets/team/eventIncharge/IMG_20250405_150947 - David Yengkhom.webp'
+import mangangamba from '../assets/team/eventIncharge/IMG_7167 - Mangangamba Oinam.webp'
+import bronson from '../assets/team/eventIncharge/IMG_20250405_160332 - BRONSUN SOUBAM.webp'
+import sanjana from '../assets/team/eventIncharge/20250405_181754 - SANJANA TAKHELLAMBAM.webp'
+import mahesh from '../assets/team/eventIncharge/IMG_20250405_212007 - KHUMANTHEM MAHESH SINGH.webp'
+import chaoba from '../assets/team/eventIncharge/InShot_20250405_211906693 - LEISHANGTHEM CHAOBA DEVI.webp'
+import yaikhomba from '../assets/team/eventIncharge/IMG-20250405-WA0008 - Yaikhomba Wairokpam.webp'
+import bikash from '../assets/team/eventIncharge/IMG_20250405_205334 - KONSAM BIKASH SINGH.webp'
+import avidas from '../assets/team/eventIncharge/InShot_20250406_095404316 - AVIDAS TAKHELLAMBAM.webp'
+import sadananda from '../assets/team/eventIncharge/IMG_20250405_211120 - WAIKHOM SADANANDA SINGH.webp'
+import wilson from '../assets/team/eventIncharge/IMG_20250405_211912 - WILSON THANGJAM.webp'
+import alonika from '../assets/team/eventIncharge/IMG_0308 - Alonika Grey.webp'
+import diviyarani from '../assets/team/eventIncharge/IMG_20250406_055434 - MONGJAM DIVIYARANI DEVI.webp'
+import derrick from '../assets/team/eventIncharge/IMG_6709 - K derrick Konjengbam.webp'
+import krishnakanta from '../assets/team/eventIncharge/IMG_2697 - Khris Young.webp'
+import gaithoijin from '../assets/team/eventIncharge/IMG_3223-modified - Gaithoizin panmei.webp'
+import devakar from '../assets/team/eventIncharge/IMG_20250406_112713 - LAISHRAM DEVAKAR SINGH.webp'
+import clinton from '../assets/team/eventIncharge/Screenshot_20231206_124352_Gmail - THONGAM CLINTON SINGH.webp'
+
+
+import ricky from '../assets/team/technical/ricky.webp'
 
 
 export const EventLead = [
@@ -53,13 +54,22 @@ export const EventLead = [
         number:"+91 9077653443"        
     },
     {
-        id:1,
+        id:2,
         img:lanmani,
         name:"Lanmani Chungkham",
         role:"Event Co-ordinator",
         branch:"Civil Engineering",
         email:"lanmani_ch21@mtu.ac.in",
         number:"+91 7005917899"        
+    },
+    {
+        id:3,
+        img:yaiphaba,
+        name:"Yaiphaba Khangembam",
+        role:"Public Relation Head",
+        branch:"Computer Science & Engineering",
+        email:"yaiphaba_kh22@mtu.ac.in",
+        number:"+91 8837276706"        
     }
 ]
 

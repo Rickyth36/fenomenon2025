@@ -25,16 +25,8 @@ import img44 from '../assets/gallery/img44.webp';
 import img28 from '../assets/gallery/img28.webp';
 import img43 from '../assets/gallery/img43.webp';
 
-import codexp from '../assets/sponsors/codexp.jpeg';
-import cubeten from '../assets/sponsors/cubeten.png';
-import globiz from '../assets/sponsors/globiz.png';
-import kumhei from '../assets/sponsors/kumhei_com.jpg';
-import likla from '../assets/sponsors/likla.png';
-import sbi from '../assets/sponsors/sbi.png';
-import singjamei360 from '../assets/sponsors/singjamei360.jpg';
-
 // import MTULogo from '../assets/logos/MTULogo.png'
-import FenomenonLogo from '../assets/logos/Logo.png';
+import FenomenonLogo from '../assets/logos/Logo.webp';
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -42,6 +34,7 @@ import { loadSlim } from "@tsparticles/slim";
 import '../index.css';
 import { CompetitionList } from "../DataJs/CompetitionList";
 import RegisterCard from "../common/registerCard";
+import { SponsorList } from "../DataJs/SponsorList";
 
 
   function SampleNextArrow(props) {
@@ -158,7 +151,7 @@ export default function Home(){
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 4 },
+          value: { min: 1, max: 5},
         },
       },
       detectRetina: true,
@@ -207,24 +200,6 @@ export default function Home(){
             particlesLoaded={particlesLoaded}
             options={options}
           />          
-          {/* <div className=" relative group overflow-hidden h-screen min-h-[700px]">
-          <img className="h-full w-full object-cover" alt='AlumniHomeFoto' src={alumniHomeFoto}/>
-          <div className="absolute mt-12 left-0 top-0 bg-black bg-opacity-60 h-full w-full text-center md:text-left">
-                <h1 className='mx-10 mt-28 text-white text-4xl font-bold md:mx-16 md:text-6xl md:mt-48'>Join, Connect, Thrive</h1>
-                <h2 className='mx-10 mt-4 text-white text-xl font-medium md:mt-6 md:mx-16 md:text-3xl'>Students of Manipur Technical University</h2>
-                <p className='mx-10 my-4 max-w-[600px] text-white font-poppins md:mt-10 md:mx-16 '>We are delighted to welcome you to the our MTU Alumni community. 
-                This space is dedicated to fostering connections, celebrating achievements, and keeping you informed
-                 about the exciting developments within our vibrant community.
-                </p>
-                
-                <div className='flex mx-16 mt-7 flex-col space-y-4 sm:flex-row sm:space-x-5 sm:space-y-0'>
-                  <button onClick={goToLogIn} className=' px-4 py-2.5 rounded-md bg-Bluee  text-white font-medium hover:bg-blue-700 lg:max-w-max'>COMMUNITY LOGIN</button>
-                  <button onClick={goToRegister} className=' px-4 py-2.5 rounded-md bg-white text-black font-medium lg:max-w-max'>REGISTER</button>
-                  
-                </div>
-              </div>
-          </div> */}
-
           {/* <div className='min-h-[700px] bg-dark flex items-center justify-center'> */}
           <div className='relative group overflow-hidden flex flex-col justify-center items-center h-full min-h-[700px]'>
             <div className="h-32"></div>
@@ -236,16 +211,21 @@ export default function Home(){
                30th, 2025, Fenomenon invites you to unlock a world of technical expression and cultural exploration.</p>
           </div>
           {/* Competition */}
-          <div className="relative my-10 px-14">
+          <div className="relative my-10">
             <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center'>Competitions</h1>
-            <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '>
-                {
-                  CompetitionList.slice(0,3).map((item,index) => (
-                  <RegisterCard key={index} img={item.img} name={item.name} id={item.id} registration={item.registration} />               
-                  )
-                )}
-              </div> 
-              <button onClick={()=>navigate('/competitions')} className="bg-gradient-to-r from-[#fb00a0] to-[#821eff] text-sm p-2 md:p-4 mb-4 rounded-lg text-white mx-auto block">MORE COMPETITIONS</button>     
+            {/* <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '> */}
+            <Marquee className='relative flex flex-row  gap-6 mt-10' speed={50}
+                gradient={true}
+                gradientColor="255, 0, 0"
+                gradientWidth={200}>
+              {
+                CompetitionList.map((item,index) => (
+                <RegisterCard key={index} img={item.img} name={item.name} id={item.id} registration={item.registration} />               
+                )
+              )}
+            </Marquee>
+              {/* </div>  */}
+              <button onClick={()=>navigate('/competitions')} className="std-btn mt-7 bg-gradient-to-r from-[#fb00a0] to-[#821eff] text-sm p-2 md:p-4 mb-4 rounded-lg text-white mx-auto block">MORE COMPETITIONS</button>     
           </div> 
           {/* Highlight */}
           <div className="relative">
@@ -273,7 +253,7 @@ export default function Home(){
               <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img45} /></div>
               <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img36} /></div>
               <div className='break-inside-avoid pl-6 md:pl-14'>
-                <button onClick={goToGallery} className='relative p-6 mr-4 md:p-8 bg-black text-white text-2xl md:text-6xl border-2 border-black rounded-lg shadow-lg shadow-gray-500 font-bold hover:bg-white hover:text-black duration-500'><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon></button>
+                <button onClick={goToGallery} className='relative bg-gradient-to-r from-[#fb00a0] to-[#821eff] text-white p-6 mr-4 md:p-8 std-btn'><FontAwesomeIcon className="text-4xl" icon={faPlus}></FontAwesomeIcon></button>
               </div>
             
             </div>
@@ -281,17 +261,18 @@ export default function Home(){
           <section id='sponsor' className='bg-dark pt-12'>
             <div>
               <h1 className='text-3xl relative text-white text-center text-white font-bold md:text-5xl'>Our sponsors</h1>
-              <Marquee className='flex flex-row gap-10 mt-10' speed={100} >
-                <div className="">
-                  <div className=" bg-white w-96"></div>
-                  <img className='w-24 md:w-28 mr-16' src={codexp} alt="" />
-                </div> 
-                <img className='w-24 md:w-28 mr-16' src={cubeten} alt="" />
-                <img className='w-24 md:w-28 mr-16' src={globiz} alt="" />
-                <img className='w-24 md:w-28 mr-16 rounded-full p-4' src={kumhei} alt="" />
-                <img className='w-24 md:w-28 mr-16' src={likla} alt="" />
-                <img className='w-24 md:w-28 mr-16' src={sbi} alt="" />
-                <img className='w-24 md:w-28 mr-16 rounded-full p-4' src={singjamei360} alt="" />
+              <Marquee className='flex flex-row gap-6 mt-10 place-items-center' speed={100} >
+                {
+                  SponsorList.map((item,index)=>(
+                    <div key={index} className='mx-10 overflow-hidden bg-white w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded-full flex items-center justify-center'>
+                    <img
+                      className='rounded-xl max-w-full max-h-full object-cover'
+                      src={item.img}
+                      alt={item.name}
+                    />
+                  </div>
+                  ))
+                }
               </Marquee> 
             </div>
           </section>

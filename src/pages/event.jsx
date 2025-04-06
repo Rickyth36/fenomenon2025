@@ -6,7 +6,6 @@ import { FaRegClock } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { EventData, TicketData } from '../DataJs/EventData';
 import EventCard from '../common/eventCard';
-import foto from '../assets/gallery/img44.webp'
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -140,7 +139,7 @@ const Event = () => {
             </div>
 
             <div>
-              <p className='text-4xl px-4 py-5'>Performing Artists</p>
+              <p className='text-3xl md:text-5xl px-4 py-5 text-center'>Performing Artists</p>
               <div className='mt-4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-y-5  place-items-center  '>
                 <EventCard img={singer1} name="Sadananda Hamom"/>
                 <EventCard img={singer2} name="Huidrom Pusparani"/>
@@ -149,21 +148,22 @@ const Event = () => {
             </div>
 
             <div className='mt-20'>
-              <p className='text-4xl px-4 py-5'>Performing Bands</p>
+              <p className='text-3xl md:text-5xl px-4 py-5 text-center'>Performing Bands</p>
               <div className='mt-4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-y-10  place-items-center '>
                 <EventCard img={band} name="Meewakching"/>
               </div>
             </div>
 
             <div className='my-7 md:my-16'>
-              <h1 className='text-3xl md:text-5xl text-center text-white'>TICKETS AVAILABLE AT</h1>
-              <div className='mt-4 mx-auto grid grid-cols-1 md:grid-cols-6  gap-y-3 '>
-                {
-                  TicketData.map((item,index)=>(
-                  <TicketCard img={item.img} name={item.name} number={item.number} map={item.map} />
-                  ))
-                }
-              </div>                
+              <h1 className='text-3xl md:text-5xl text-center text-white'>Tickets Available At</h1>
+              <div className="mt-4 grid grid-cols-1 md:grid-cols-6 gap-y-3 w-full justify-center place-items-center">
+  {
+    TicketData.map((item, index) => (
+      <TicketCard key={index} img={item.img} name={item.name} number={item.number} map={item.map} />
+    ))
+  }
+</div>
+               
             </div>   
           </div>         
       </div>

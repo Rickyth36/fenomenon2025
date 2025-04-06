@@ -113,8 +113,8 @@ export default function Contact() {
         <h1 className="mt-8 text-center text-4xl text-white font-bold mb-4">Get In Touch</h1>
         <div className="rounded-lg">
           <div className="mt-20 w-full flex flex-col space-y-10 md:space-y-0 md:flex-row items-center justify-around mx-auto ">
-            <ContactCard name="Dexter Thoudam" role="Event Convenor" email="dexter_th21@mtu.ac.in" number="9077653443" />
-            <ContactCard name="Lanmani Chungkham" role="Event Co-ordinator" email="lanmani_ch21@mtu.ac.in" number="7005917899" />
+            <ContactCard name="Dexter Thoudam" role="Event Convenor" email="dexter_th21@mtu.ac.in" number="+91 9077653443" />
+            <ContactCard name="Lanmani Chungkham" role="Event Co-ordinator" email="lanmani_ch21@mtu.ac.in" number="+91 7005917899" />
           </div>  
         </div>
 

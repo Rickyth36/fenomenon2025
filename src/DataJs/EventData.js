@@ -4,14 +4,14 @@ import mahabaliChocolatePan from '../assets/events/mahabali_chocolate_pan.jpeg'
 export const EventData=[
     {
         id:1,
-        title:"PRICE DISTRIBUTION CEREMONY",
+        title:"Prize Distribution Ceremony",
         date:"30TH ARPIL, 2025",
         time:"3:00PM - 4:00PM ",
         venue:"MTU CAMPUS, TAKYELPAT, I/W",
     },
     {
         id:2,
-        title:"MUSICAL NITE",
+        title:"Musical Nite",
         date:"30TH ARPIL, 2025",
         time:"4:00PM - 7:00PM ",
         venue:"MTU CAMPUS, TAKYELPAT, I/W",

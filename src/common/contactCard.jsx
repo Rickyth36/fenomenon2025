@@ -1,6 +1,6 @@
 import React from 'react'
 // import logo from "../assets/logos/Logo.png"
-import logo from "../assets/logos/LogoImg.png"
+import logo from "../assets/logos/LogoImg.webp"
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
