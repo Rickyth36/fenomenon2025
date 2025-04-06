@@ -230,14 +230,14 @@ export default function Home(){
             <div className="h-32"></div>
             <div className="flex flex-col items-center justify-center ">
               <img className="z-4 w-[25%]" src={FenomenonLogo} alt="" />
-              <span className="self-center text-base md:text-3xl font-black font-code whitespace-nowrap text-white mt-4">28th April-30th April</span>
+              <span className="self-center text-base text-xl md:text-3xl font-black font-code whitespace-nowrap text-white mt-4">28th April-30th April</span>
             </div>
-            <p className="px-6 max-w-[80%] text-white mt-9 text-sm md:text-lg text-justify">Fenomenon , the flagship tech fest of Manipur Technical University, is where innovation meets ambition. A melting pot of creativity, competition and technology, it brings together the brightest minds for electrifying challenges, workshops and exhibitions. Experience the thrill of discovery, push the limits of possibility and be part of a festival. From April 28th to April
+            <p className="px-6 max-w-[80%] text-white mt-9 text-md md:text-lg text-center md:text-justify">Fenomenon , the flagship tech fest of Manipur Technical University, is where innovation meets ambition. A melting pot of creativity, competition and technology, it brings together the brightest minds for electrifying challenges, workshops and exhibitions. Experience the thrill of discovery, push the limits of possibility and be part of a festival. From April 28th to April
                30th, 2025, Fenomenon invites you to unlock a world of technical expression and cultural exploration.</p>
           </div>
           {/* Competition */}
-          <div className="relative">
-            <h1 className='text-4xl relative text-white font-bold md:text-5xl text-center'>Competitions</h1>
+          <div className="relative my-10 px-14">
+            <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center'>Competitions</h1>
             <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '>
                 {
                   CompetitionList.slice(0,3).map((item,index) => (
@@ -245,13 +245,11 @@ export default function Home(){
                   )
                 )}
               </div> 
-              <button onClick={()=>navigate('/competitions')} className="bg-gradient-to-r from-[#fb00a0] to-[#821eff] p-4 mb-4 rounded-lg text-white mx-auto block">MORE COMPETITIONS</button>     
-                 
+              <button onClick={()=>navigate('/competitions')} className="bg-gradient-to-r from-[#fb00a0] to-[#821eff] text-sm p-2 md:p-4 mb-4 rounded-lg text-white mx-auto block">MORE COMPETITIONS</button>     
+          </div> 
           {/* Highlight */}
           <div className="relative">
-          <h1 className='text-4xl relative text-white font-bold md:text-5xl text-center'>Highlights</h1>
-
-          </div> 
+          <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center'>Highlights</h1>
           {/* <div className='relative flex  py-14 px-10 items-center justify-center flex-col space-y-4 md:px-20 md:flex-row md:space-x-10 md:space-y-0'>
             
               <div className='w-11/12 md:w-1/3 overflow-hidden rounded-lg shadow-md shadow-gray-700'>
@@ -266,7 +264,7 @@ export default function Home(){
            </div> */}
           </div>
         <section id='gallery' className='bg-dark'>
-            <h1 className='text-4xl relative text-white font-bold md:text-5xl text-center'>Gallery</h1>
+            <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center'>Gallery</h1>
             <div className='columns-3 gap-3  md:w-[700px] mx-auto space-y-3 pt-5'>
               <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img3} /></div>
               <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img44} /></div>
@@ -282,7 +280,7 @@ export default function Home(){
           </section>
           <section id='sponsor' className='bg-dark pt-12'>
             <div>
-              <h1 className='text-4xl relative text-white text-center text-white font-bold md:text-5xl'>Our sponsors</h1>
+              <h1 className='text-3xl relative text-white text-center text-white font-bold md:text-5xl'>Our sponsors</h1>
               <Marquee className='flex flex-row gap-10 mt-10' speed={100} >
                 <div className="">
                   <div className=" bg-white w-96"></div>
@@ -299,7 +297,7 @@ export default function Home(){
           </section>
           <section id="testimonal" className='bg-dark h-[900px] pt-10 bg-dark'>
                   <div className='w-3/4 mx-auto'>
-                      <h1 className='text-4xl text-gray-800 font-bold md:text-5xl text-center'>Testimonial</h1>
+                      <h1 className='text-3xl text-gray-800 font-bold md:text-5xl text-center'>Testimonial</h1>
                       <p className='text-md text-gray-700 font-semibold mt-4 text-center md:text-xl'>What our alumni say</p>
                       <div className='mt-1 m-auto md:mt-8'>
                         <Slider {...settings}>

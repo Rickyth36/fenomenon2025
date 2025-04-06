@@ -2,14 +2,12 @@ import React, { useEffect, useMemo, useState } from 'react'
 import Upsection from '../common/upSection'
 import { UpsectionContent } from '../DataJs/upSecData'
 import TeamCard from '../common/teamCard'
-import { DepartmentIncharge } from '../DataJs/TeamList'
-import coordinate from '../assets/events/soraren.webp'
+import { DepartmentIncharge, EventIncharge, EventLead, TechnicalTeam } from '../DataJs/TeamList'
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
 function Team() {
-
   // particles
   const [init, setInit] = useState(false);
 
@@ -106,35 +104,49 @@ function Team() {
         particlesLoaded={particlesLoaded}
         options={options}
       />       
-      <div className='h-24'></div>
       <Upsection title={UpsectionContent[4].title} description={UpsectionContent[4].description}  /> 
+      <div className='h-36 md:h-12'></div>  
       <div className='relative p-4'>
         <div className='mt-7'>
           <div>
-            <p className='text-4xl text-white md:text-5xl text-center mb-3 md:mb-9'>Event Coordinating Team</p>
+            <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Event Coordinating Team</p>
             <div className='mx-auto grid grid-cols-1 md:grid-cols-2 p-5 gap-y-10 gap-x-1 place-items-center '>
-              <TeamCard img={coordinate} name="Dexter Thoudam" role="Event Convenor" number="+91 123456789" />
-              <TeamCard img={coordinate} name="Dexter Thoudam" role="Event Co-ordinator" number="+91 123456789" />
+              {
+                EventLead.map((item,index)=>(
+                  <TeamCard key={index} img={item.img} name={item.name} role={item.role} email={item.email} number={item.number} />
+                ))
+              }              
             </div>
           </div>
           
           <div className='mt-5 md:mt-10'>
-            <p className='text-4xl text-white md:text-5xl text-center mb-3 md:mb-9'>Event Lead Crew</p>
+            <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Event Lead Crew</p>
             <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-1 place-items-center '>
               {
                 DepartmentIncharge.map((item,index)=>(
-                  <TeamCard key={index} img={item.img} name={item.name} role={item.role} branch={item.branch} number={item.number} />
+                  <TeamCard key={index} img={item.img} name={item.name} role={item.role} branch={item.branch} email={item.email} number={item.number} />
                 ))
               }
             </div>
           </div>
           
           <div className='mt-5 md:mt-10'>
-            <p className='text-4xl text-white md:text-5xl text-center mb-3 md:mb-9'>Event Incharges</p>
+            <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Event Incharges</p>
             <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '>
               {
-                DepartmentIncharge.map((item,index)=>(
-                  <TeamCard key={index} img={item.img} name={item.name} role={item.role} branch={item.branch} number={item.number} />
+                EventIncharge.map((item,index)=>(
+                  <TeamCard key={index} img={item.img} name={item.name} role={item.role} branch={item.event} email={item.email} number={item.number} />
+                ))
+              }
+            </div>
+          </div>
+          
+          <div className='mt-5 md:mt-10'>
+            <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Technical</p>
+            <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '>
+              {
+                TechnicalTeam.map((item,index)=>(
+                  <TeamCard key={index} img={item.img} name={item.name} role={item.role} branch={item.event} email={item.email} number={item.number} />
                 ))
               }
             </div>
