@@ -1,5 +1,5 @@
 
-import codexp from '../assets/sponsors/codexp.jpeg';
+import codexp from '../assets/sponsors/codexp.png';
 import cubeten from '../assets/sponsors/cubeten.png';
 import globiz from '../assets/sponsors/globiz.png';
 import kumhei from '../assets/sponsors/kumhei_com.jpg';

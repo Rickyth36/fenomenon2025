@@ -9,7 +9,7 @@ import korounganba from '../assets/team/deptIncharge/IMG_0141 - Korounganba Lais
 import brijit from '../assets/team/deptIncharge/IMG-20250406-WA0002 - Kh Brijit singh.webp'
 import sidarth from '../assets/team/deptIncharge/IMG_20250406_094633961 - SIDARTH HAOBAM.webp'
 import satish from '../assets/team/deptIncharge/IMG_2734 - PHEIROIJAM SATISH LUWANG.webp'
-import diyabarta from '../assets/team/deptIncharge/diyabarta.webp'
+import diyabarta from '../assets/team/deptIncharge/diya.webp'
 
 
 import lanngamba from '../assets/team/eventIncharge/IMG_241003_053601 - NAOROIBAM LANNGAMBA LUWANG.webp'
@@ -24,7 +24,7 @@ import david from '../assets/team/eventIncharge/IMG_20250405_150947 - David Yeng
 import mangangamba from '../assets/team/eventIncharge/IMG_7167 - Mangangamba Oinam.webp'
 import bronson from '../assets/team/eventIncharge/IMG_20250405_160332 - BRONSUN SOUBAM.webp'
 import sanjana from '../assets/team/eventIncharge/20250405_181754 - SANJANA TAKHELLAMBAM.webp'
-import mahesh from '../assets/team/eventIncharge/IMG_20250405_212007 - KHUMANTHEM MAHESH SINGH.webp'
+import moranshim from '../assets/team/eventIncharge/moranshim.webp'
 import chaoba from '../assets/team/eventIncharge/InShot_20250405_211906693 - LEISHANGTHEM CHAOBA DEVI.webp'
 import yaikhomba from '../assets/team/eventIncharge/IMG-20250405-WA0008 - Yaikhomba Wairokpam.webp'
 import bikash from '../assets/team/eventIncharge/IMG_20250405_205334 - KONSAM BIKASH SINGH.webp'
@@ -35,12 +35,18 @@ import alonika from '../assets/team/eventIncharge/IMG_0308 - Alonika Grey.webp'
 import diviyarani from '../assets/team/eventIncharge/IMG_20250406_055434 - MONGJAM DIVIYARANI DEVI.webp'
 import derrick from '../assets/team/eventIncharge/IMG_6709 - K derrick Konjengbam.webp'
 import krishnakanta from '../assets/team/eventIncharge/IMG_2697 - Khris Young.webp'
-import gaithoijin from '../assets/team/eventIncharge/IMG_3223-modified - Gaithoizin panmei.webp'
+import liya from '../assets/team/eventIncharge/IMG-20250407-WA0004 - MEISHNAM LIYA DEVI.webp'
 import devakar from '../assets/team/eventIncharge/IMG_20250406_112713 - LAISHRAM DEVAKAR SINGH.webp'
 import clinton from '../assets/team/eventIncharge/Screenshot_20231206_124352_Gmail - THONGAM CLINTON SINGH.webp'
 
 
 import ricky from '../assets/team/technical/ricky.webp'
+import nilambar from '../assets/team/technical/IMG_20250407_160135 - NILAMBAR ELANGBAM.jpg'
+import joymangol from '../assets/team/technical/IMG_20250407_160304 - JOYMANGOL CHINGANGBAM.jpg'
+
+import nongshaba from '../assets/team/design/IMG_20250407_163524326_3 - naorem naoba nongshaba.webp'
+import llhanba from '../assets/team/design/llhanba.webp'
+import anuj from '../assets/team/design/anuj.webp'
 
 
 export const EventLead = [
@@ -144,12 +150,12 @@ export const EventIncharge=[
     },
     {
         id:2,
-        img:mahesh,
-        name:"Khumanthem Mahesh Singh",
+        img:moranshim,
+        name:"CH Moranshim",
         role:"In-Charge",
         event:"Innovation Expo",
-        email:"mahesh_kh21@mtu.ac.in",
-        number:"+91 7005532092"
+        email:"moranshim_ch21@mtu.ac.in",
+        number:"+91 8787725110"
     },
     {
         id:3,
@@ -324,12 +330,12 @@ export const EventIncharge=[
     },
     {
         id:23,
-        img:gaithoijin,
-        name:"Gaithoijin Panmei",
+        img:liya,
+        name:"Meishnam Liya Devi ",
         role:"In-Charge",
         event:"Competitve Programming",
-        email:"gaithoijin_p21@mtu.ac.in",
-        number:"+91 9863034123"
+        email:"liya_m21@mtu.ac.in",
+        number:"+91 6009757951"
     },
     {
         id:24,
@@ -363,7 +369,7 @@ export const EventIncharge=[
         img:clinton,
         name:"Clinton Thongam",
         role:"In-Charge",
-        event:"Business Idea Competition",
+        event:"Ideathon",
         email:"clinton.th24@mtu.ac.in",
         number:"+91 7085926882"
     },
@@ -379,8 +385,66 @@ export const TechnicalTeam=[
         img:ricky,
         name:"Ricky Thoudam",
         role:"In-Charge",
-        event:"Technical lead",
+        event:"Technical Team",
         email:"ricky_th21@mtu.ac.in",
         number:"+91 7005387430"        
-    }
+    },
+    {
+        id:2,
+        img:nilambar,
+        name:"Nilambar Elangbam",
+        role:"Member",
+        event:"Technical Team",
+        email:"nilambar_e22@mtu.ac.in",
+        number:"+91 9366462995"        
+    },
+    {
+        id:3,
+        img:joymangol,
+        name:"Joymangol Chingangbam",
+        role:"Member",
+        event:"Technical Team",
+        email:"joymangol_ch22@mtu.ac.in",
+        number:"+91 7005276907"        
+    },
+]
+
+
+export const DesignTeam=[
+    {
+        id:1,
+        img:llhanba,
+        name:"Laishram Llhanba",
+        role:"In-Charge",
+        event:"Design Team",
+        email:"laishramllhanba@gmail.com",
+        number:"+91 9362983641"        
+    },
+    {
+        id:2,
+        img:anuj,
+        name:"Maisnam Anuj Singh",
+        role:"Member",
+        event:"Design Team",
+        email:"anuj_m22@mtu.ac.in",
+        number:"+91 9862922193"        
+    },
+    {
+        id:3,
+        img:nongshaba,
+        name:"Naorem Naoba Nongshaba",
+        role:"Member",
+        event:"Design Team",
+        email:"naoba_n23@mtu.ac.in",
+        number:"+91 7630886189"        
+    },
+    // {
+    //     id:1,
+    //     img:ricky,
+    //     name:"Laishram Llhanba",
+    //     role:"In-Charge",
+    //     event:"Design Team",
+    //     email:"laishramllhanba@gmail.com",
+    //     number:"+91 9362983641"        
+    // },
 ]

@@ -120,8 +120,8 @@ function CompetitionDetail() {
                                       <div className='overflow-hidden'>
                                       <img className='w-full h-[230px] rounded-lg object-cover' src={competition.img} alt="" />
                                       </div>
-                                      <p className='text-xl mt-3 md:mt-7 text-center font-semibold'>{competition.name}</p>
-                                      <div className='flex space-x-3 md:mt-1 items-center justify-center w-full'>
+                                      <p className='text-md md:text-xl mt-3 md:mt-7 text-center font-semibold'>{competition.name}</p>
+                                      <div className='flex space-x-3 md:my-1 items-center justify-center w-full'>
                                       <a href={competition.registration} target="_blank" rel="noopener noreferrer"  class="btn register w-1/2 mt-4">Register</a>
                                       <a href={competition.guidelines} target="_blank" rel="noopener noreferrer" class="btn guidelines w-1/2 mt-4">Guidelines</a>
                                       </div>

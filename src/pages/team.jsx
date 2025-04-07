@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import Upsection from '../common/upSection'
 import { UpsectionContent } from '../DataJs/upSecData'
 import TeamCard from '../common/teamCard'
-import { DepartmentIncharge, EventIncharge, EventLead, TechnicalTeam } from '../DataJs/TeamList'
+import { DepartmentIncharge, EventIncharge, EventLead, TechnicalTeam,DesignTeam } from '../DataJs/TeamList'
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -142,10 +142,21 @@ function Team() {
           </div>
           
           <div className='mt-5 md:mt-10'>
-            <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Technical</p>
+            <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Technical Team</p>
             <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '>
               {
                 TechnicalTeam.map((item,index)=>(
+                  <TeamCard key={index} img={item.img} name={item.name} role={item.role} branch={item.event} email={item.email} number={item.number} />
+                ))
+              }
+            </div>
+          </div>
+          
+          <div className='mt-5 md:mt-10'>
+            <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Design Team</p>
+            <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '>
+              {
+                DesignTeam.map((item,index)=>(
                   <TeamCard key={index} img={item.img} name={item.name} role={item.role} branch={item.event} email={item.email} number={item.number} />
                 ))
               }

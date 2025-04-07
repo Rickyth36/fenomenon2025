@@ -6,13 +6,6 @@ import { useNavigate } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { Swiper, SwiperSlide } from 'swiper/react';
-// import { EffectFade } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import { EffectCoverflow,Pagination,Navigation } from "swiper/modules";
 import { CarouselData } from '../DataJs/CarouselData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
@@ -35,6 +28,7 @@ import '../index.css';
 import { CompetitionList } from "../DataJs/CompetitionList";
 import RegisterCard from "../common/registerCard";
 import { SponsorList } from "../DataJs/SponsorList";
+import EventSlider from "../common/eventSlider";
 
 
   function SampleNextArrow(props) {
@@ -43,7 +37,7 @@ import { SponsorList } from "../DataJs/SponsorList";
     <div
       className={className}
           style={{
-              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", right: "40%", background: "rgb(30,58,138)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
+              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", right: "40%", background: "rgb(14,12,21)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
         } }
       onClick={onClick}
     />
@@ -56,7 +50,7 @@ function SamplePrevArrow(props) {
     <div
       className={className}
           style={{
-              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", left: "40%", background: "rgb(30,58,138)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
+              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", left: "40%", background: "rgb(14,12,21)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
         } }
       onClick={onClick}
       >    
@@ -65,6 +59,22 @@ function SamplePrevArrow(props) {
   }
 
 export default function Home(){
+  const useMobileView = () => {
+    const [isMobile, setIsMobile] = useState(false);
+  
+    useEffect(() => {
+      const checkMobile = () => {
+        setIsMobile(window.innerWidth < 768); // Tailwind's md breakpoint
+      };
+  
+      checkMobile();
+      window.addEventListener('resize', checkMobile);
+      return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+  
+    return isMobile;
+  };  
+  const isMobile = useMobileView();
 
   // particles
   const [init, setInit] = useState(false);
@@ -192,6 +202,7 @@ export default function Home(){
 
   
   if (init) {
+    
     return(
 
         <div className='font-code'>
@@ -215,9 +226,7 @@ export default function Home(){
             <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center'>Competitions</h1>
             {/* <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '> */}
             <Marquee className='relative flex flex-row  gap-6 mt-10' speed={50}
-                gradient={true}
-                gradientColor="255, 0, 0"
-                gradientWidth={200}>
+                gradient={true} gradientColor='rgb(14,12,21)'   gradientWidth={100} autoFill={true}>
               {
                 CompetitionList.map((item,index) => (
                 <RegisterCard key={index} img={item.img} name={item.name} id={item.id} registration={item.registration} />               
@@ -228,22 +237,12 @@ export default function Home(){
               <button onClick={()=>navigate('/competitions')} className="std-btn mt-7 bg-gradient-to-r from-[#fb00a0] to-[#821eff] text-sm p-2 md:p-4 mb-4 rounded-lg text-white mx-auto block">MORE COMPETITIONS</button>     
           </div> 
           {/* Highlight */}
-          <div className="relative">
-          <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center'>Highlights</h1>
-          {/* <div className='relative flex  py-14 px-10 items-center justify-center flex-col space-y-4 md:px-20 md:flex-row md:space-x-10 md:space-y-0'>
-            
-              <div className='w-11/12 md:w-1/3 overflow-hidden rounded-lg shadow-md shadow-gray-700'>
-                <img className='w-full h-full object-cover shadow-md rounded-md shadow-gray-700 transform hover:scale-110 duration-200 ' alt='alumniFotos' src={alumnniFotos}/>
-              </div>  
-              <div className='text-center md:text-left flex-1 z-4'>
-                <h1 className='text-4xl text-white font-bold md:text-5xl'>Our mission</h1>
-                <p className='mt-4 text-white font-normal text-sm md:text-lg text-gray-700'>Our mission is to foster lifelong connections, celebrate the achievements of our alumni, and provide a dynamic platform that promotes engagement, philanthropy, and professional growth. Through the MTU Alumni, we aim to build a community where every graduate feels valued,
-                 connected, and empowered to contribute to the ongoing success of our institution.
-                </p>
-              </div>
-           </div> */}
+          <div className="relative my-10 md:my-20">
+            <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center mb-5 md:mb-10'>Highlights</h1>
+            <EventSlider/>
           </div>
-        <section id='gallery' className='bg-dark'>
+          
+        {/* <section id='gallery' className='bg-dark'>
             <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center'>Gallery</h1>
             <div className='columns-3 gap-3  md:w-[700px] mx-auto space-y-3 pt-5'>
               <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img3} /></div>
@@ -257,11 +256,12 @@ export default function Home(){
               </div>
             
             </div>
-          </section>
+          </section> */}
           <section id='sponsor' className='bg-dark pt-12'>
             <div>
               <h1 className='text-3xl relative text-white text-center text-white font-bold md:text-5xl'>Our sponsors</h1>
-              <Marquee className='flex flex-row gap-6 mt-10 place-items-center' speed={100} >
+              <Marquee className='flex flex-row gap-6 mt-10 place-items-center' speed={50} 
+              gradient={true} gradientColor='rgb(14,12,21)'   gradientWidth={200} autoFill={true}>
                 {
                   SponsorList.map((item,index)=>(
                     <div key={index} className='mx-10 overflow-hidden bg-white w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded-full flex items-center justify-center'>
@@ -283,7 +283,7 @@ export default function Home(){
                       <div className='mt-1 m-auto md:mt-8'>
                         <Slider {...settings}>
                           {CarouselData.map((d) => (
-                              <div key={d.id} className="bg-blue-900 h-100 w-[600px]  p-5 pb-14 mx-auto rounded-lg flex flex-col space-y-3 text-white my-10">
+                              <div key={d.id} className="bg-[#1a1a1a] h-100 w-[600px]  p-5 pb-14 mx-auto rounded-lg flex flex-col space-y-3 text-white my-10">
                                     <img alt="alumni" src={d.image} className="w-20  md:w-32  rounded-full mx-auto" />
                                     <img alt="quote" src={quotePic} className='w-12 mx-auto rotate-180 md:w-16 ' />                                           
                                     <p className='text-center text-sm md:text-base'>{d.quote}</p>

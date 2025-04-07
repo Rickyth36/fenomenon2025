@@ -119,10 +119,8 @@ const Gallery = () => {
                 className="cursor-pointer"
               /> */}
               <ModalImage 
-                imageBackgroundColor="red"
                 small={image}
                 large={image}
-                // alt={`Gallery ${index}`}
                 className="cursor-pointer rounded-md"
               />            
             </div>

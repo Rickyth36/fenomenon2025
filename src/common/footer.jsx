@@ -2,38 +2,54 @@ import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PRLogo from '../assets/logos/PRClub.webp';
+import Logo from '../assets/logos/Logo.webp';
 import { Link } from 'react-router-dom';
+
 
 export default function Footer() {
     return (
-        <div className="mb-0 p-8 pb-0 bg-zinc-900 md:px-0 z-4 relative font-code">
-            <div className="px-5 md:px-10 text-white flex flex-col justify-between space-y-8 md:flex-row md:space-y-0 md:space-x-96">
+        <div className="mb-0 py-14 pb-0 bg-zinc-900 md:px-0 z-4 relative font-code">
+            {/* <div className='flex justify-center'>
+                <img className='w-48' src={Logo} alt="" />
+            </div> */}
+            <div className="px-5 md:px-10 mx-auto text-white flex flex-col justify-center space-y-8 md:flex-row md:space-y-0 md:space-x-80">
                 {/* left */}
                 <div>
-                    <p className='text-lg md:text-xl text-center md:text-left'>Designed & Developed By</p>
-                    <div className='flex gap-2 mt-3 items-center justify-center'>
-                        <img src={PRLogo} alt="" className='w-14 h-14' />
-                        <p className='text-sm md:text-md text-center md:text-left'>Programming & Robotics Club<br/>Computer Science & Engineering, MTU</p>
+                    <div className='text-center md:text-left'>
+                        <h1 className='text-lg md:text-3xl bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Event Convenor</h1>
+                        <p className='text-md md:text-lg'>Dexter Thoudam</p>
+                        <p className='text-md md:text-lg'>dexter_th21@mtu.ac.in</p>
+                        <p className='text-md md:text-lg'>+91 9077653443</p>
                     </div>
                 </div>
 
-                {/* right */}
-                <div>
+                {/* mid */}
+                <div className='flex flex-col space-y-4 justify-center items-center'>
                     <div>
-                        <p className='text-lg md:text-xl text-center md:text-left'>Follow Us</p>
+                        <p className='text-lg md:text-4xl text-center md:text-left bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Follow Us</p>
                         <div className='flex gap-4 mt-3 items-center justify-center'>
                             <Link to="https://www.instagram.com/fenomenonmtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >
-                                <FontAwesomeIcon icon={faInstagram} className='text-white hover:text-[#821eff] text-xl'/>
+                                <FontAwesomeIcon icon={faInstagram} className='text-white hover:text-[#821eff] text-3xl'/>
                             </Link>
                             <Link>
-                                <FontAwesomeIcon icon={faFacebook} className='text-white hover:text-[#821eff] text-xl' />
+                                <FontAwesomeIcon icon={faFacebook} className='text-white hover:text-[#821eff] text-3xl' />
                             </Link>                            
                             <Link>
-                                <FontAwesomeIcon icon={faGlobe} className='text-white hover:text-[#821eff] text-xl' />
+                                <FontAwesomeIcon icon={faGlobe} className='text-white hover:text-[#821eff] text-3xl' />
                             </Link>                            
                         </div>                          
                     </div>
                 </div>
+                
+                {/* right  */}
+                <div>
+                    <div className='text-center md:text-right'>
+                        <h1 className='text-lg md:text-3xl bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Event Co-ordinator</h1>
+                        <p className='text-md md:text-lg'>Lanmani Chungkham</p>
+                        <p className='text-md md:text-lg'>lanmani_ch21@mtu.ac.in</p>
+                        <p className='text-md md:text-lg'>+91 7005917899</p>
+                    </div>
+                </div>                    
             </div>
             <div className="p-3 border-t-2 mt-3 border-white">
                 <p className="text-sm text-center text-whitee">©2025 FENOMENON. ALL RIGHTS RESERVED.</p>
