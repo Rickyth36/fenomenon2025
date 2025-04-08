@@ -18,8 +18,10 @@ export default function Footer() {
                     <div className='text-center md:text-left'>
                         <h1 className='text-lg md:text-3xl bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Event Convenor</h1>
                         <p className='text-md md:text-lg'>Dexter Thoudam</p>
-                        <p className='text-md md:text-lg'>dexter_th21@mtu.ac.in</p>
-                        <p className='text-md md:text-lg'>+91 9077653443</p>
+                        <a href="mailto: dexter_th21@mtu.ac.in"><p className='text-md md:text-lg'>dexter_th21@mtu.ac.in</p></a>
+                        <a href="tel: +919077653443"><p className='text-md md:text-lg'>+91 9077653443</p></a>
+                        <Link>
+                        </Link>
                     </div>
                 </div>
 

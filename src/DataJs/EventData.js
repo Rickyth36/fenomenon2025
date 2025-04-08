@@ -5,15 +5,15 @@ export const EventData=[
     {
         id:1,
         title:"Prize Distribution Ceremony",
-        date:"30TH ARPIL, 2025",
-        time:"3:00PM - 4:00PM ",
+        date:"30TH ARPIL 2025",
+        time:"1:00PM",
         venue:"MTU CAMPUS, TAKYELPAT, I/W",
     },
     {
         id:2,
         title:"Musical Nite",
-        date:"30TH ARPIL, 2025",
-        time:"4:00PM - 7:00PM ",
+        date:"30TH ARPIL 2025",
+        time:"2:30 PM",
         venue:"MTU CAMPUS, TAKYELPAT, I/W",
     }
 

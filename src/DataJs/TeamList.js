@@ -22,7 +22,7 @@ import pinky from '../assets/team/eventIncharge/IMG_2751 - Pinky Thokchom.webp'
 import pougui from '../assets/team/eventIncharge/IMG_2578 - KAMEI POUGUI.webp'
 import david from '../assets/team/eventIncharge/IMG_20250405_150947 - David Yengkhom.webp'
 import mangangamba from '../assets/team/eventIncharge/IMG_7167 - Mangangamba Oinam.webp'
-import bronson from '../assets/team/eventIncharge/IMG_20250405_160332 - BRONSUN SOUBAM.webp'
+import bronson from '../assets/team/eventIncharge/IMG_20250406_114606 - BRONSUN SOUBAM.jpg'
 import sanjana from '../assets/team/eventIncharge/20250405_181754 - SANJANA TAKHELLAMBAM.webp'
 import moranshim from '../assets/team/eventIncharge/moranshim.webp'
 import chaoba from '../assets/team/eventIncharge/InShot_20250405_211906693 - LEISHANGTHEM CHAOBA DEVI.webp'
@@ -47,6 +47,9 @@ import joymangol from '../assets/team/technical/IMG_20250407_160304 - JOYMANGOL 
 import nongshaba from '../assets/team/design/IMG_20250407_163524326_3 - naorem naoba nongshaba.webp'
 import llhanba from '../assets/team/design/llhanba.webp'
 import anuj from '../assets/team/design/anuj.webp'
+import dayananda from '../assets/team/design/dayananda.webp'
+import korou from '../assets/team/design/korou.webp'
+
 
 
 export const EventLead = [
@@ -171,7 +174,7 @@ export const EventIncharge=[
         img:venus,
         name:"Longjam Venus Singh",
         role:"In-Charge",
-        event:"BGMI (Battlegrounds Mobile India) Tournament",
+        event:"BGMI Tournament",
         email:"venus_l21@mtu.ac.in",
         number:"+91 7005068545"
     },
@@ -180,7 +183,7 @@ export const EventIncharge=[
         img:bikash,
         name:"Konsam Bikash Singh",
         role:"In-Charge",
-        event:"MLBB (Mobile Legends: Bang Bang) Tournament",
+        event:"MLBB Tournament",
         email:"bikash_k21@mtu.ac.in",
         number:"+91 9863124645"
     },
@@ -349,7 +352,7 @@ export const EventIncharge=[
     {
         id:25,
         img:lanngamba,
-        name:"Naoroibam Lanngamba Luwang",
+        name:"Naoroibam Lanngamba",
         role:"In-Charge",
         event:"Hackathon",
         email:"lanngamba_n21@mtu.ac.in",
@@ -407,6 +410,15 @@ export const TechnicalTeam=[
         email:"joymangol_ch22@mtu.ac.in",
         number:"+91 7005276907"        
     },
+    {
+        id:4,
+        img:dayananda,
+        name:"Dayananda Laishram ",
+        role:"Member",
+        event:"Technical Team",
+        email:"dayananda_l22@mtu.ac.in",
+        number:"+91 8119087473"        
+    },    
 ]
 
 
@@ -438,13 +450,14 @@ export const DesignTeam=[
         email:"naoba_n23@mtu.ac.in",
         number:"+91 7630886189"        
     },
-    // {
-    //     id:1,
-    //     img:ricky,
-    //     name:"Laishram Llhanba",
-    //     role:"In-Charge",
-    //     event:"Design Team",
-    //     email:"laishramllhanba@gmail.com",
-    //     number:"+91 9362983641"        
-    // },
+
+    {
+        id:4,
+        img:korou,
+        name:"Korounganba Haorongbam",
+        role:"Member",
+        event:"Design Team",
+        email:"Korounganba_h22@mtu.ac.in",
+        number:"+91 9862069755"        
+    },
 ]

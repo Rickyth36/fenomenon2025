@@ -204,7 +204,7 @@ export const CompetitionList=[
         title:"BGMI (Battlegrounds Mobile India) Tournament",
         description:"Lock and load for the ultimate battle royale at FENOMENON’s BGMI Tournament! Squad up, drop in and fight for survival as you outplay, outgun and outlast your opponents. Strategy, teamwork and precision will determine the last team standing. Are you ready to claim the battleground?  ",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"12:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹8000",
@@ -334,7 +334,7 @@ export const CompetitionList=[
         title:"Tekken 8 Tournament",
         description:"Step into the ring and unleash your fiercest combos at FENOMENON’s Tekken 8 Tournament! Face off against the best fighters, master your techniques and prove your dominance in this high-intensity battle of skill and reflexes. Only one can stand victorious—will it be you?",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"11:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹8000",
@@ -399,7 +399,7 @@ export const CompetitionList=[
         title:"Dance Competition",
         description:"Unleash your rhythm and set the stage on fire at FENOMENON’s Dance Competition! Whether you groove solo or move as a team, this is your chance to captivate the crowd with breathtaking performances. Choose your style—Cultural, Modern or K-Pop—and bring your A-game to the ultimate dance showdown. Get ready to mesmerize, compete and own the spotlight!",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"10:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: null,
@@ -463,8 +463,8 @@ export const CompetitionList=[
         img:cosplay,
         title:"Food Fiesta",
         description:"Ready to feast like a champion? FENOMENON’s Food Fiesta is not just a competition—it’s a battle of appetite, speed and sheer willpower! Brace yourself for a thrilling showdown where only the fastest, fiercest and most fearless foodies will reign supreme. Whether you savor every bite or devour with lightning speed, this is your chance to prove you’ve got the stomach for victory. Come hungry, leave legendary!",
-        date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        date:"30TH ARPIL 2025",
+        time:"10:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹8000",
@@ -659,7 +659,7 @@ export const CompetitionList=[
         title:"Painting Competition",
         description:"Unleash your imagination and let your art speak at FENOMENON’s Painting Competition! Whether you sketch, shade or splash colors onto the canvas, this is your chance to bring creativity to life. Every stroke tells a story, every masterpiece makes a mark—will yours stand out? Pick up your tools and let your artistry shine!",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"10:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: null,
@@ -855,7 +855,7 @@ export const CompetitionList=[
         title:"Build Con (Structural Design)",
         description:"Engineers, it’s time to build and break! Test your creativity and structural knowledge by crafting the strongest bridge using just popsicle sticks. Precision, planning and a bit of brute force will be your allies in this battle of design and durability.",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"9:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹3000",
@@ -985,7 +985,7 @@ export const CompetitionList=[
         title:"3D Design & Modeling ",
         description:"Step into the world of 3D modelling with SolidWorks! Create mechanical marvels, intricate assemblies or concept prototypes and demonstrate your finesse in CAD. This event challenges your creativity and technical command of design software.",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"10:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹3000",
@@ -1049,8 +1049,8 @@ export const CompetitionList=[
         img:cosplay,
         title:"PCB Designing",
         description:"Delve into electronics by designing your own printed circuit boards! From layout to routing, this event pushes your understanding of circuits and PCB tools. Showcase smart, efficient and compact designs that could power real-world systems.",
-        date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        date:"30TH ARPIL 2025",
+        time:"9:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹3000",
@@ -1115,7 +1115,7 @@ export const CompetitionList=[
         title:"Circuit Debugging",
         description:"Put your logic to the test in this electrifying event! Faulty circuits await your sharp eyes and steady hands. Analyse, detect and fix errors to restore power. It’s a thrilling race against time and resistance!",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"10:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹3000",
@@ -1180,7 +1180,7 @@ export const CompetitionList=[
         title:"Line Follower",
         description:"Build a bot, program it smart, and watch it race! In the Line Follower challenge, your robot must detect and follow a predefined path. Speed, accuracy and sensor logic are key—can your bot go the distance?",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"11:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹3000",
@@ -1374,8 +1374,8 @@ export const CompetitionList=[
         img:cosplay,
         title:"UI Desigining",
         description:"It’s not just about looks—it’s about user experience! In the UI Designing event, create interfaces that are intuitive, functional and visually appealing. Your goal: balance form with function to deliver the ultimate digital.",
-        date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        date:"30TH ARPIL 2025",
+        time:"9:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹3000",
@@ -1570,7 +1570,7 @@ export const CompetitionList=[
         title:"Ideathon",
         description:"Pitch it like a pro! Present innovative business models that are impactful, feasible and future-ready. From tech startups to social solutions, convince the judges why your idea is the next big thing.",
         date:"29TH ARPIL 2025",
-        time:"11:00 PM",
+        time:"11:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
             first: "₹3000",

@@ -10,6 +10,7 @@ import { CarouselData } from '../DataJs/CarouselData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import Marquee from "react-fast-marquee";
+import { motion } from "framer-motion";
 
 import img45 from '../assets/gallery/img45.webp';
 import img36 from '../assets/gallery/img36.webp';
@@ -218,8 +219,12 @@ export default function Home(){
               <img className="z-4 w-[25%]" src={FenomenonLogo} alt="" />
               <span className="self-center text-base text-xl md:text-3xl font-black font-code whitespace-nowrap text-white mt-4">28th April-30th April</span>
             </div>
-            <p className="px-6 max-w-[80%] text-white mt-9 text-md md:text-lg text-center md:text-justify">Fenomenon , the flagship tech fest of Manipur Technical University, is where innovation meets ambition. A melting pot of creativity, competition and technology, it brings together the brightest minds for electrifying challenges, workshops and exhibitions. Experience the thrill of discovery, push the limits of possibility and be part of a festival. From April 28th to April
-               30th, 2025, Fenomenon invites you to unlock a world of technical expression and cultural exploration.</p>
+            <motion.p
+            initial={{ opacity: 0,y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: 'easeOut' }}            
+            className="px-6 max-w-[80%] text-white mt-9 text-md md:text-lg text-center md:text-justify">Fenomenon , the flagship tech fest of Manipur Technical University, is where innovation meets ambition. A melting pot of creativity, competition and technology, it brings together the brightest minds for electrifying challenges, workshops and exhibitions. Experience the thrill of discovery, push the limits of possibility and be part of a festival. From April 28th to April
+               30th, 2025, Fenomenon invites you to unlock a world of technical expression and cultural exploration.</motion.p>
           </div>
           {/* Competition */}
           <div className="relative my-10">
@@ -276,7 +281,7 @@ export default function Home(){
               </Marquee> 
             </div>
           </section>
-          <section id="testimonal" className='bg-dark h-[900px] pt-10 bg-dark'>
+          {/* <section id="testimonal" className='bg-dark h-[900px] pt-10 bg-dark'>
                   <div className='w-3/4 mx-auto'>
                       <h1 className='text-3xl text-gray-800 font-bold md:text-5xl text-center'>Testimonial</h1>
                       <p className='text-md text-gray-700 font-semibold mt-4 text-center md:text-xl'>What our alumni say</p>
@@ -294,7 +299,7 @@ export default function Home(){
                   </div>
             
                </div>
-            </section>
+            </section> */}
         </div>
     );
   }
