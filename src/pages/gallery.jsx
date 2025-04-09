@@ -119,6 +119,8 @@ const Gallery = () => {
                 className="cursor-pointer"
               /> */}
               <ModalImage 
+                hideZoom={true}
+                hideDownload={true} 
                 small={image}
                 large={image}
                 className="cursor-pointer rounded-md"

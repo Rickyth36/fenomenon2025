@@ -1,48 +1,48 @@
 
 
-import dexter from '../assets/team/deptIncharge/IMG_3036 - Dexter Thoudam.webp'
-import lanmani from '../assets/team/deptIncharge/IMG_20250406_095625 - Lanmani Ch.webp'
-import yaiphaba from '../assets/team/deptIncharge/IMG-20250406-WA0028 - Yaiphaba Kh.webp'
+import dexter from '../assets/team/dept_incharge/IMG_3036 - Dexter Thoudam.webp'
+import lanmani from '../assets/team/dept_incharge/IMG_20250406_095625 - Lanmani Ch.webp'
+import yaiphaba from '../assets/team/dept_incharge/IMG-20250406-WA0028 - Yaiphaba Kh.webp'
 
 
-import korounganba from '../assets/team/deptIncharge/IMG_0141 - Korounganba Laishram.webp'
-import brijit from '../assets/team/deptIncharge/IMG-20250406-WA0002 - Kh Brijit singh.webp'
-import sidarth from '../assets/team/deptIncharge/IMG_20250406_094633961 - SIDARTH HAOBAM.webp'
-import satish from '../assets/team/deptIncharge/IMG_2734 - PHEIROIJAM SATISH LUWANG.webp'
-import diyabarta from '../assets/team/deptIncharge/diya.webp'
+import korounganba from '../assets/team/dept_incharge/IMG_0141 - Korounganba Laishram.webp'
+import brijit from '../assets/team/dept_incharge/IMG-20250406-WA0002 - Kh Brijit singh.webp'
+import sidarth from '../assets/team/dept_incharge/IMG_20250406_094633961 - SIDARTH HAOBAM.webp'
+import satish from '../assets/team/dept_incharge/IMG_2734 - PHEIROIJAM SATISH LUWANG.webp'
+import diyabarta from '../assets/team/dept_incharge/diya.webp'
 
 
-import lanngamba from '../assets/team/eventIncharge/IMG_241003_053601 - NAOROIBAM LANNGAMBA LUWANG.webp'
-import venus from '../assets/team/eventIncharge/B2C68E00-92BC-4B7B-98EA-FA2C7C135579 - LONGJAM VENUS SINGH.webp'
-import kilangleima from '../assets/team/eventIncharge/IMG_20250405_212940 - KILANGLEIMA CHINGSUBAM.webp'
-import tina from '../assets/team/eventIncharge/224f9aee-21ff-4c4b-93e3-26dcc79debe1 - Tina Salam.webp'
-import ryan from '../assets/team/eventIncharge/Kshetrimayum Ryan Singh  - KSHETRIMAYUM RYAN SINGH.webp'
-import bishan from '../assets/team/eventIncharge/20250405_105100 - BISHAN YENSEMBAM.webp'
-import pinky from '../assets/team/eventIncharge/IMG_2751 - Pinky Thokchom.webp'
-import pougui from '../assets/team/eventIncharge/IMG_2578 - KAMEI POUGUI.webp'
-import david from '../assets/team/eventIncharge/IMG_20250405_150947 - David Yengkhom.webp'
-import mangangamba from '../assets/team/eventIncharge/IMG_7167 - Mangangamba Oinam.webp'
-import bronson from '../assets/team/eventIncharge/IMG_20250406_114606 - BRONSUN SOUBAM.jpg'
-import sanjana from '../assets/team/eventIncharge/20250405_181754 - SANJANA TAKHELLAMBAM.webp'
-import moranshim from '../assets/team/eventIncharge/moranshim.webp'
-import chaoba from '../assets/team/eventIncharge/InShot_20250405_211906693 - LEISHANGTHEM CHAOBA DEVI.webp'
-import yaikhomba from '../assets/team/eventIncharge/IMG-20250405-WA0008 - Yaikhomba Wairokpam.webp'
-import bikash from '../assets/team/eventIncharge/IMG_20250405_205334 - KONSAM BIKASH SINGH.webp'
-import avidas from '../assets/team/eventIncharge/InShot_20250406_095404316 - AVIDAS TAKHELLAMBAM.webp'
-import sadananda from '../assets/team/eventIncharge/IMG_20250405_211120 - WAIKHOM SADANANDA SINGH.webp'
-import wilson from '../assets/team/eventIncharge/IMG_20250405_211912 - WILSON THANGJAM.webp'
-import alonika from '../assets/team/eventIncharge/IMG_0308 - Alonika Grey.webp'
-import diviyarani from '../assets/team/eventIncharge/IMG_20250406_055434 - MONGJAM DIVIYARANI DEVI.webp'
-import derrick from '../assets/team/eventIncharge/IMG_6709 - K derrick Konjengbam.webp'
-import krishnakanta from '../assets/team/eventIncharge/IMG_2697 - Khris Young.webp'
-import liya from '../assets/team/eventIncharge/IMG-20250407-WA0004 - MEISHNAM LIYA DEVI.webp'
-import devakar from '../assets/team/eventIncharge/IMG_20250406_112713 - LAISHRAM DEVAKAR SINGH.webp'
-import clinton from '../assets/team/eventIncharge/Screenshot_20231206_124352_Gmail - THONGAM CLINTON SINGH.webp'
+import lanngamba from '../assets/team/event_incharge/IMG_241003_053601 - NAOROIBAM LANNGAMBA LUWANG.webp'
+import venus from '../assets/team/event_incharge/B2C68E00-92BC-4B7B-98EA-FA2C7C135579 - LONGJAM VENUS SINGH.webp'
+import kilangleima from '../assets/team/event_incharge/IMG_20250405_212940 - KILANGLEIMA CHINGSUBAM.webp'
+import tina from '../assets/team/event_incharge/224f9aee-21ff-4c4b-93e3-26dcc79debe1 - Tina Salam.webp'
+import ryan from '../assets/team/event_incharge/avidas.webp'
+import bishan from '../assets/team/event_incharge/20250405_105100 - BISHAN YENSEMBAM.webp'
+import pinky from '../assets/team/event_incharge/IMG_2751 - Pinky Thokchom.webp'
+import pougui from '../assets/team/event_incharge/IMG_2578 - KAMEI POUGUI.webp'
+import david from '../assets/team/event_incharge/IMG_20250405_150947 - David Yengkhom.webp'
+import mangangamba from '../assets/team/event_incharge/IMG_7167 - Mangangamba Oinam.webp'
+import bronson from '../assets/team/event_incharge/IMG_20250406_114606 - BRONSUN SOUBAM.webp'
+import sanjana from '../assets/team/event_incharge/20250405_181754 - SANJANA TAKHELLAMBAM.webp'
+import moranshim from '../assets/team/event_incharge/moranshim.webp'
+import chaoba from '../assets/team/event_incharge/InShot_20250405_211906693 - LEISHANGTHEM CHAOBA DEVI.webp'
+import yaikhomba from '../assets/team/event_incharge/IMG-20250405-WA0008 - Yaikhomba Wairokpam.webp'
+import bikash from '../assets/team/event_incharge/IMG_20250405_205334 - KONSAM BIKASH SINGH.webp'
+import avidas from '../assets/team/event_incharge/avidas.webp'
+import sadananda from '../assets/team/event_incharge/IMG_20250405_211120 - WAIKHOM SADANANDA SINGH.webp'
+import wilson from '../assets/team/event_incharge/IMG_20250405_211912 - WILSON THANGJAM.webp'
+import alonika from '../assets/team/event_incharge/IMG_0308 - Alonika Grey.webp'
+import diviyarani from '../assets/team/event_incharge/IMG_20250406_055434 - MONGJAM DIVIYARANI DEVI.webp'
+import derrick from '../assets/team/event_incharge/IMG_6709 - K derrick Konjengbam.webp'
+import krishnakanta from '../assets/team/event_incharge/IMG_2697 - Khris Young.webp'
+import liya from '../assets/team/event_incharge/IMG-20250407-WA0004 - MEISHNAM LIYA DEVI.webp'
+import devakar from '../assets/team/event_incharge/IMG_20250406_112713 - LAISHRAM DEVAKAR SINGH.webp'
+import clinton from '../assets/team/event_incharge/clinton.webp'
 
 
 import ricky from '../assets/team/technical/ricky.webp'
-import nilambar from '../assets/team/technical/IMG_20250407_160135 - NILAMBAR ELANGBAM.jpg'
-import joymangol from '../assets/team/technical/IMG_20250407_160304 - JOYMANGOL CHINGANGBAM.jpg'
+import nilambar from '../assets/team/technical/IMG_20250407_160135 - NILAMBAR ELANGBAM.webp'
+import joymangol from '../assets/team/technical/IMG_20250407_160304 - JOYMANGOL CHINGANGBAM.webp'
 
 import nongshaba from '../assets/team/design/IMG_20250407_163524326_3 - naorem naoba nongshaba.webp'
 import llhanba from '../assets/team/design/llhanba.webp'
@@ -75,7 +75,7 @@ export const EventLead = [
         id:3,
         img:yaiphaba,
         name:"Yaiphaba Khangembam",
-        role:"Public Relation Head",
+        role:"Public Relations Head",
         branch:"Computer Science & Engineering",
         email:"yaiphaba_kh22@mtu.ac.in",
         number:"+91 8837276706"        
@@ -274,7 +274,7 @@ export const EventIncharge=[
         name:"Yaikhomba Wairokpam",
         role:"In-Charge",
         event:"Build Con (Structural Design)",
-        email:"Yaikkhomba_w21@mtu.ac.in",
+        email:"yaikhomba_w21@mtu.ac.in",
         number:"+91 9862111692"
     },
     {
@@ -327,7 +327,7 @@ export const EventIncharge=[
         img:sadananda,
         name:"Waikhom Sadananda Singh",
         role:"In-Charge",
-        event:"Electrical Puzzle",
+        event:"Electric Puzzle",
         email:"sadananda_w21@mtu.ac.in",
         number:"+91 6009394191"
     },
@@ -336,7 +336,7 @@ export const EventIncharge=[
         img:liya,
         name:"Meishnam Liya Devi ",
         role:"In-Charge",
-        event:"Competitve Programming",
+        event:"Competitive Programming",
         email:"liya_m21@mtu.ac.in",
         number:"+91 6009757951"
     },
@@ -354,7 +354,7 @@ export const EventIncharge=[
         img:lanngamba,
         name:"Naoroibam Lanngamba",
         role:"In-Charge",
-        event:"Hackathon",
+        event:"Full Stack Development",
         email:"lanngamba_n21@mtu.ac.in",
         number:"+91 8413847705"
     },

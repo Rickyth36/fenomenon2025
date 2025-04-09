@@ -1,13 +1,12 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import Upsection from '../common/upSection'
 import { UpsectionContent } from '../DataJs/upSecData'
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
-import { SponsorList } from '../DataJs/SponsorList'
+import Particles, { initParticlesEngine } from "@tsparticles/react"
+import { loadSlim } from "@tsparticles/slim"
+import { titleSponsorList } from '../DataJs/SponsorList'
 import SponsorCard from '../common/sponsorCard'
 
 function Team() {
-  
   // particles
   const [init, setInit] = useState(false);
 
@@ -104,15 +103,16 @@ function Team() {
         particlesLoaded={particlesLoaded}
         options={options}
       />       
-      <Upsection title={UpsectionContent[4].title} description={UpsectionContent[4].description}  /> 
+      <Upsection title={UpsectionContent[3].title} description={UpsectionContent[3].description}  /> 
       <div className='h-36 md:h-12'></div>  
       <div className='relative p-4'>
         <div className='mt-7'>
           <div>
             <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Title sponsors</p>
             <div className='mx-auto grid grid-cols-1 md:grid-cols-5 p-5 gap-y-4 md:gap-y-10 gap-x-1 place-items-center '>
+            {/* <div className='mx-auto flex flex-col md:flex-row space-x-5 items-center justify-center'> */}
               {
-                SponsorList.map((item,index)=>(
+                titleSponsorList.map((item,index)=>(
                   <SponsorCard key={index} img={item.img} name={item.name} />
                 ))
               }              

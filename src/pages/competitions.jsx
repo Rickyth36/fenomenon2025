@@ -2,7 +2,6 @@
   import Upsection from '../common/upSection'
   import { UpsectionContent } from "../DataJs/upSecData";
   import { CompetitionList } from '../DataJs/CompetitionList';
-  import { Link } from 'react-router-dom';
   // import RegisterCard from '../common/registerCard';
 
   import Particles, { initParticlesEngine } from "@tsparticles/react";

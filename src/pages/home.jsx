@@ -1,23 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
 // import alumniHomeFoto from '../assets/alumniHomeFoto.jpg';
-import alumnniFotos from '../assets/alumniFotos.jpg';
-import quotePic from '../assets/logos/quote.png';
+// import alumnniFotos from '../assets/alumniFotos.jpg';
+// import quotePic from '../assets/logos/quote.png';
 import { useNavigate } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import { CarouselData } from '../DataJs/CarouselData';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+// import Slider from "react-slick";
+// import { CarouselData } from '../DataJs/CarouselData';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 
-import img45 from '../assets/gallery/img45.webp';
-import img36 from '../assets/gallery/img36.webp';
-import img3 from '../assets/gallery/img3.webp';
-import img44 from '../assets/gallery/img44.webp';
-import img28 from '../assets/gallery/img28.webp';
-import img43 from '../assets/gallery/img43.webp';
 
 // import MTULogo from '../assets/logos/MTULogo.png'
 import FenomenonLogo from '../assets/logos/Logo.webp';
@@ -28,54 +22,38 @@ import { loadSlim } from "@tsparticles/slim";
 import '../index.css';
 import { CompetitionList } from "../DataJs/CompetitionList";
 import RegisterCard from "../common/registerCard";
-import { SponsorList } from "../DataJs/SponsorList";
+import { allSponsorList } from "../DataJs/SponsorList";
 import EventSlider from "../common/eventSlider";
 
 
-  function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-          style={{
-              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", right: "40%", background: "rgb(14,12,21)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
-        } }
-      onClick={onClick}
-    />
-  );
-}
+//   function SampleNextArrow(props) {
+//     const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//           style={{
+//               ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", right: "40%", background: "rgb(14,12,21)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
+//         } }
+//       onClick={onClick}
+//     />
+//   );
+// }
 
-function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-          style={{
-              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", left: "40%", background: "rgb(14,12,21)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
-        } }
-      onClick={onClick}
-      >    
-    </div>
-  );
-  }
+// function SamplePrevArrow(props) {
+//     const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//           style={{
+//               ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", left: "40%", background: "rgb(14,12,21)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
+//         } }
+//       onClick={onClick}
+//       >    
+//     </div>
+//   );
+//   }
 
 export default function Home(){
-  const useMobileView = () => {
-    const [isMobile, setIsMobile] = useState(false);
-  
-    useEffect(() => {
-      const checkMobile = () => {
-        setIsMobile(window.innerWidth < 768); // Tailwind's md breakpoint
-      };
-  
-      checkMobile();
-      window.addEventListener('resize', checkMobile);
-      return () => window.removeEventListener('resize', checkMobile);
-    }, []);
-  
-    return isMobile;
-  };  
-  const isMobile = useMobileView();
 
   // particles
   const [init, setInit] = useState(false);
@@ -172,34 +150,34 @@ export default function Home(){
   // particles
   const navigate = useNavigate();
 
-  const goToGallery = () => {
-    navigate("/gallery")
-  }
+  // const goToGallery = () => {
+  //   navigate("/gallery")
+  // }
 
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    autoplay: true,
-    // speed: 2000,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
-    pauseOnHover: true,
-    prevArrow: <SamplePrevArrow />,
-    nextArrow: <SampleNextArrow />,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
+  // var settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   initialSlide: 0,
+  //   autoplay: true,
+  //   // speed: 2000,
+  //   autoplaySpeed: 4000,
+  //   cssEase: "linear",
+  //   pauseOnHover: true,
+  //   prevArrow: <SamplePrevArrow />,
+  //   nextArrow: <SampleNextArrow />,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1
+  //       }
+  //     }
+  //   ]
+  // };
 
   
   if (init) {
@@ -216,7 +194,7 @@ export default function Home(){
           <div className='relative group overflow-hidden flex flex-col justify-center items-center h-full min-h-[700px]'>
             <div className="h-32"></div>
             <div className="flex flex-col items-center justify-center ">
-              <img className="z-4 w-[25%]" src={FenomenonLogo} alt="" />
+              <img className="z-4 w-[50%] md:w-[20%]" src={FenomenonLogo} alt="" />
               <span className="self-center text-base text-xl md:text-3xl font-black font-code whitespace-nowrap text-white mt-4">28th April-30th April</span>
             </div>
             <motion.p
@@ -245,6 +223,7 @@ export default function Home(){
           <div className="relative my-10 md:my-20">
             <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center mb-5 md:mb-10'>Highlights</h1>
             <EventSlider/>
+            <button onClick={()=>navigate('/event')} className="std-btn mt-7 bg-gradient-to-r from-[#fb00a0] to-[#821eff] text-sm p-2 md:p-4 mb-4 rounded-lg text-white mx-auto block">MORE EVENTS</button>
           </div>
           
         {/* <section id='gallery' className='bg-dark'>
@@ -262,13 +241,13 @@ export default function Home(){
             
             </div>
           </section> */}
-          <section id='sponsor' className='bg-dark pt-12'>
+          <section id='sponsor' className='bg-dark pt-12 my-10'>
             <div>
               <h1 className='text-3xl relative text-white text-center text-white font-bold md:text-5xl'>Our sponsors</h1>
               <Marquee className='flex flex-row gap-6 mt-10 place-items-center' speed={50} 
-              gradient={true} gradientColor='rgb(14,12,21)'   gradientWidth={200} autoFill={true}>
+              gradient={true} gradientColor='rgb(14,12,21)'   gradientWidth={200} autoFill={false}>
                 {
-                  SponsorList.map((item,index)=>(
+                  allSponsorList.map((item,index)=>(
                     <div key={index} className='mx-10 overflow-hidden bg-white w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded-full flex items-center justify-center'>
                     <img
                       className='rounded-xl max-w-full max-h-full object-cover'

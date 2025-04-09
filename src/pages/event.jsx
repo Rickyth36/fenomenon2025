@@ -10,21 +10,18 @@ import EventCard from '../common/eventCard';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import TicketCard from '../common/ticketCard';
-import { useNavigate } from 'react-router-dom';
 
+import band from '../assets/events/meewakching.webp'
 
 import singer1 from '../assets/events/sadananda.webp'
 import singer2 from '../assets/events/pusparani.webp'
 import singer3 from '../assets/events/felix.webp'
-import band from '../assets/events/meewakching.webp'
-
 
 
 
 
 
 const Event = () => {
-  const navigate = useNavigate();
   // particles
   const [init, setInit] = useState(false);
 

@@ -8,22 +8,22 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/effect-coverflow';
 
-import img3 from '../assets/gallery/img3.webp'
-import img4 from '../assets/gallery/img4.webp'
-import img5 from '../assets/gallery/img5.webp'
+import blood_donation from '../assets/events/blood_donation.webp'
+import enung_sowa from '../assets/events/enung_sowa.webp'
+import meewakching from '../assets/events/meewakchingPoster.webp'
 
 const EventSlider = () => {
   return (
-    <div className='max-w-[1450px] overflow-hidden mx-auto px-10'>
+    <div className='max-w-[1450px] overflow-hidden mx-auto px-20'>
       <Swiper
-        className='mx-auto'
+        className='mx-auto block'
         modules={[ Pagination, Scrollbar, A11y, EffectCoverflow, Autoplay]}
         effect="coverflow"
         grabCursor={true}
         centeredSlides={true}
         // slidesPerView={1}
         coverflowEffect={{
-          rotate: 50,
+          rotate: 100,
           stretch: 0,
           depth: 300,
           modifier: 1,
@@ -51,31 +51,25 @@ const EventSlider = () => {
         }}
       >
         <SwiperSlide className="text-white">
-          <div className='w-[300px] md:w-[500px] mx-auto'>
-            <img className='w-full rounded-lg' src={img3} alt="" />
+          <div className='overflow-hidden rounded-xl w-full  md:w-full md:h-[550px]'>
+            <img className='w-full object-cover  rounded-lg' src={blood_donation} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="text-white">
-          <div className='w-[300px] md:w-[500px] mx-auto'>
-            <img className='w-full rounded-lg' src={img4} alt="" />
+          <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
+            <img className='w-full object-cover  rounded-lg' src={enung_sowa} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="text-white">
-          <div className='w-[300px] md:w-[500px] mx-auto'>
-            <img className='w-full rounded-lg' src={img5} alt="" />
+          <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
+            <img className='w-full object-cover  rounded-lg' src={meewakching} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="text-white">
-          <div className='w-[300px] md:w-[500px] mx-auto'>
-            <img className='w-full rounded-lg' src={img5} alt="" />
+          <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
+            <img className='w-full object-cover  rounded-lg' src={enung_sowa} alt="" />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="text-white">
-          <div className='w-[300px] md:w-[500px] mx-auto'>
-            <img className='w-full rounded-lg' src={img5} alt="" />
-          </div>
-        </SwiperSlide>
-
       </Swiper>    
     </div>
   )

@@ -16,8 +16,8 @@ function ContactCard(props) {
                 <div class="content flex flex-col gap-1 items-start">
                 <span class="title">{props.name}</span>
                 <span class="text mb-4 font-semibold">{props.role}</span>
-                <div className='text-white text-sm flex gap-1 items-center justify-center '> <MdEmail className='w-5 h-5 text-blue-300' /><span>{props.email}</span></div>                  
-                <div className='text-white text-sm flex gap-1 items-start justify-center '> <FaPhoneAlt  className='w-5 h-5 text-green-300' /><span>{props.number}</span></div>   
+                <div className='text-white text-sm flex gap-1 items-center justify-center '> <MdEmail className='w-5 h-5 text-blue-300' /><a href={`mailto: ${props.email}`}>{props.email}</a></div>                  
+                <div className='text-white text-sm flex gap-1 items-start justify-center'> <FaPhoneAlt  className='w-5 h-5 text-green-300' /><a href={`tel: ${props.number}`}>{props.number}</a></div>   
             </div>
         </div>
     </div>
