@@ -101,7 +101,7 @@ export default function Navbar() {
 					<button
 						onClick={toggleMenu}
 						type="button"
-						className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black-500 shadow-lg border border-gray-100 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-40"
+						className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black-500 shadow-lg border border-gray-100 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-40"
 						aria-expanded={isMenuOpen}
 					>
 						<span className="sr-only">Open main menu</span>

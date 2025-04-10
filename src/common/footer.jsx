@@ -16,28 +16,28 @@ export default function Footer() {
                 {/* left */}
                 <div>
                     <div className='text-center md:text-left'>
-                        <h1 className='text-lg md:text-3xl bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Event Convenor</h1>
-                        <p className='text-md md:text-xl font-bold'>Dexter Thoudam</p>
-                        <a href="mailto: dexter_th21@mtu.ac.in"><p className='text-md md:text-lg mt-2'>dexter_th21@mtu.ac.in</p></a>
-                        <a href="tel: +919077653443"><p className='text-md md:text-lg mt-2'>+91 9077653443</p></a>
+                        <h1 className='text-lg md:text-2xl bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Event Convenor</h1>
+                        <p className='text-md md:text-lg font-bold'>Dexter Thoudam</p>
+                        <a href="mailto: dexter_th21@mtu.ac.in"><p className='text-sm mt-2'>dexter_th21@mtu.ac.in</p></a>
+                        <a href="tel: +919077653443"><p className='text-sm mt-2'>+91 9077653443</p></a>
                     </div>
                 </div>
 
                 {/* mid */}
-                <div className='flex flex-col space-y-4 justify-center items-center'>
+                {/* <div className='flex flex-col justify-center items-center'> */}
                     <div>
-                        <p className='text-lg md:text-4xl text-center bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Follow Us</p>
+                        <p className='text-lg md:text-2xl text-center bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Follow Us</p>
                         <div className='flex gap-4 mt-3 items-center justify-center'>
-                            <Link to="https://www.instagram.com/fenomenonmtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >
+                            <Link target='_blank' to="https://www.instagram.com/fenomenonmtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >
                                 <FontAwesomeIcon icon={faInstagram} className='text-white hover:text-[#821eff] text-3xl'/>
                             </Link>
                         
-                            <Link to="https://mtu.ac.in/">
+                            <Link target='_blank' to="https://mtu.ac.in/">
                                 <FontAwesomeIcon icon={faGlobe} className='text-white hover:text-[#821eff] text-3xl' />
                             </Link>                            
                         </div>                          
                     </div>
-                </div>
+                {/* </div> */}
                 
                 {/* right  */}
                 {/* <div>
@@ -51,10 +51,10 @@ export default function Footer() {
 
                 <div>
                     <div className='text-center md:text-right'>
-                        <h1 className='text-lg md:text-3xl bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Event Co-ordinator</h1>
-                        <p className='text-md md:text-xl font-bold'>Lanmani Chungkham</p>
-                        <a href="mailto: lanmani_ch21@mtu.ac.in"><p className='text-md md:text-lg mt-2'>lanmani_ch21@mtu.ac.in</p></a>
-                        <a href="tel: +917005917899"><p className='text-md md:text-lg mt-2'>+91 7005917899</p></a>
+                        <h1 className='text-lg md:text-2xl bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent font-semibold'>Event Co-ordinator</h1>
+                        <p className='text-md md:text-lg font-bold'>Lanmani Chungkham</p>
+                        <a href="mailto: lanmani_ch21@mtu.ac.in"><p className='text-sm mt-2'>lanmani_ch21@mtu.ac.in</p></a>
+                        <a href="tel: +917005917899"><p className='text-sm mt-2'>+91 7005917899</p></a>
                     </div>
                 </div>                
 

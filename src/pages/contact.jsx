@@ -118,7 +118,7 @@ export default function Contact() {
           </div>  
         </div>
 
-        <NavLink to="https://www.google.com/maps/place/Manipur+Technical+University/@24.7972741,93.9024575,17z/data=!3m1!4b1!4m6!3m5!1s0x3749262a5adc967b:0x65df1fde96bcb382!8m2!3d24.7972741!4d93.9050324!16s%2Fg%2F11cpfzvq43?entry=ttu" title="mtuMap" className="">
+        <NavLink target="_blank" to="https://www.google.com/maps/place/Manipur+Technical+University/@24.7972741,93.9024575,17z/data=!3m1!4b1!4m6!3m5!1s0x3749262a5adc967b:0x65df1fde96bcb382!8m2!3d24.7972741!4d93.9050324!16s%2Fg%2F11cpfzvq43?entry=ttu" title="mtuMap" className="">
           <div className="flex flex-col items-center justify-center p-3 md:w-5/6 rounded-lg shadow-lg bg-zinc-900  mx-auto mt-7 mb-6">
             <FontAwesomeIcon icon={faLocationDot} className="text-red-600 text-2xl"/>
             <h1 className="text-lg text-center text-white font-semibold">Manipur Technical University</h1>

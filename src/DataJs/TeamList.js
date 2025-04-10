@@ -16,7 +16,7 @@ import lanngamba from '../assets/team/event_incharge/IMG_241003_053601 - NAOROIB
 import venus from '../assets/team/event_incharge/B2C68E00-92BC-4B7B-98EA-FA2C7C135579 - LONGJAM VENUS SINGH.webp'
 import kilangleima from '../assets/team/event_incharge/IMG_20250405_212940 - KILANGLEIMA CHINGSUBAM.webp'
 import tina from '../assets/team/event_incharge/224f9aee-21ff-4c4b-93e3-26dcc79debe1 - Tina Salam.webp'
-import ryan from '../assets/team/event_incharge/avidas.webp'
+import ryan from '../assets/team/event_incharge/ryan.webp'
 import bishan from '../assets/team/event_incharge/20250405_105100 - BISHAN YENSEMBAM.webp'
 import pinky from '../assets/team/event_incharge/IMG_2751 - Pinky Thokchom.webp'
 import pougui from '../assets/team/event_incharge/IMG_2578 - KAMEI POUGUI.webp'
@@ -345,7 +345,7 @@ export const EventIncharge=[
         img:pinky,
         name:"Pinky Thokchom",
         role:"In-Charge",
-        event:"UI Desigining",
+        event:"UI Designing",
         email:"pinky_th21@mtu.ac.in",
         number:"+91 8787584755"
     },

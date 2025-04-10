@@ -8,9 +8,10 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/effect-coverflow';
 
-import blood_donation from '../assets/events/blood_donation.webp'
+// import blood_donation from '../assets/events/blood_donation.webp'
 import enung_sowa from '../assets/events/enung_sowa.webp'
 import meewakching from '../assets/events/meewakchingPoster.webp'
+import soraren from '../assets/events/soraren_poster.png'
 
 const EventSlider = () => {
   return (
@@ -50,11 +51,11 @@ const EventSlider = () => {
           },
         }}
       >
-        <SwiperSlide className="text-white">
+        {/* <SwiperSlide className="text-white">
           <div className='overflow-hidden rounded-xl w-full  md:w-full md:h-[550px]'>
             <img className='w-full object-cover  rounded-lg' src={blood_donation} alt="" />
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide className="text-white">
           <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
             <img className='w-full object-cover  rounded-lg' src={enung_sowa} alt="" />
@@ -67,7 +68,7 @@ const EventSlider = () => {
         </SwiperSlide>
         <SwiperSlide className="text-white">
           <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
-            <img className='w-full object-cover  rounded-lg' src={enung_sowa} alt="" />
+            <img className='w-full object-cover  rounded-lg' src={soraren} alt="" />
           </div>
         </SwiperSlide>
       </Swiper>    

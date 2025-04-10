@@ -191,17 +191,17 @@ export default function Home(){
             options={options}
           />          
           {/* <div className='min-h-[700px] bg-dark flex items-center justify-center'> */}
-          <div className='relative group overflow-hidden flex flex-col justify-center items-center h-full min-h-[700px]'>
-            <div className="h-32"></div>
+          <div className='relative group overflow-hidden flex flex-col justify-center items-center md:mt-10  min-h-screen md:min-h-[700px]'>
+            {/* <div className="h-32"></div> */}
             <div className="flex flex-col items-center justify-center ">
-              <img className="z-4 w-[50%] md:w-[20%]" src={FenomenonLogo} alt="" />
-              <span className="self-center text-base text-xl md:text-3xl font-black font-code whitespace-nowrap text-white mt-4">28th April-30th April</span>
+              <img className="z-4 w-[80%] md:w-[20%]" src={FenomenonLogo} alt="" />
+              <span className="self-center text-base text-xl md:text-3xl font-thin font-code whitespace-nowrap text-white mt-4"><span className="text-[#821eff] font-bold">28th</span> April - <span className="text-[#821eff] font-bold">30th</span> April</span>
             </div>
             <motion.p
             initial={{ opacity: 0,y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: 'easeOut' }}            
-            className="px-6 max-w-[80%] text-white mt-9 text-md md:text-lg text-center md:text-justify">Fenomenon , the flagship tech fest of Manipur Technical University, is where innovation meets ambition. A melting pot of creativity, competition and technology, it brings together the brightest minds for electrifying challenges, workshops and exhibitions. Experience the thrill of discovery, push the limits of possibility and be part of a festival. From April 28th to April
+            className="px-6 max-w-[80%] text-white mt-9 text-md md:text-lg hidden md:block text-left md:text-justify">Fenomenon , the flagship tech fest of Manipur Technical University, is where innovation meets ambition. A melting pot of creativity, competition and technology, it brings together the brightest minds for electrifying challenges, workshops and exhibitions. Experience the thrill of discovery, push the limits of possibility and be part of a festival. From April 28th to April
                30th, 2025, Fenomenon invites you to unlock a world of technical expression and cultural exploration.</motion.p>
           </div>
           {/* Competition */}
@@ -243,7 +243,7 @@ export default function Home(){
           </section> */}
           <section id='sponsor' className='bg-dark pt-12 my-10'>
             <div>
-              <h1 className='text-3xl relative text-white text-center text-white font-bold md:text-5xl'>Our sponsors</h1>
+              <h1 className='text-3xl relative text-white text-center text-white font-bold md:text-5xl'>Our Sponsors</h1>
               <Marquee className='flex flex-row gap-6 mt-10 place-items-center' speed={50} 
               gradient={true} gradientColor='rgb(14,12,21)'   gradientWidth={200} autoFill={false}>
                 {

@@ -1,28 +1,31 @@
 import cosplay from '../assets/poster/cosplay_compition.webp'
 import innovation_expo from '../assets/poster/innovation_expo.webp'
 import photography from '../assets/poster/photography.webp'
-import bgmi from '../assets/poster/bgmi.webp'
-import mlbb from '../assets/poster/mlbb.webp'
-import tekken from '../assets/poster/tekken.webp'
+import mlbb from '../assets/poster/MLBB_poster.webp'
 import dance from '../assets/poster/dANCE.webp'
 import food from '../assets/poster/food.webp'
-import reels from '../assets/poster/reels.webp'
-import treasure_hunt from '../assets/poster/treasure_hunt.webp'
+import reels from '../assets/poster/reels_compitition.webp'
+import treasure_hunt from '../assets/poster/TREASURE_HUNT.webp'
 import painting from '../assets/poster/painting.webp'
-import ramp_walk from '../assets/poster/ramp_walk.webp'
-import quiz from '../assets/poster/quiz.webp'
-import buildcon from '../assets/poster/buildcon.webp'
+import ramp_walk from '../assets/poster/RAMP_WALK.webp'
+import quiz from '../assets/poster/QUIZ.webp'
+import buildcon from '../assets/poster/build_con.webp'
 import Auto_cad from '../assets/poster/Auto_cad.webp'
 import threeDdesign from '../assets/poster/3Ddesign.webp'
+import line_follower from '../assets/poster/linefollower.webp'
+import competitive from '../assets/poster/competitive programming.webp'
+import UIdesign from '../assets/poster/ui design.webp'
+import full_stack from '../assets/poster/full_stack.webp'
+import ideathon from '../assets/poster/IDEATHON.webp'
+
+
+
+import bgmi from '../assets/poster/bgmi.webp'
+import tekken from '../assets/poster/tekken.webp'
 import pcb from '../assets/poster/pcb.webp'
 import circuit_debugging from '../assets/poster/circuit_debugging.webp'
-import line_follower from '../assets/poster/line_follower.webp'
 import electric_puzzle from '../assets/poster/electric_puzzle.webp'
-import competitive from '../assets/poster/competitive programming.webp'
-import UIdesign from '../assets/poster/UIdesign.webp'
-import hackathon from '../assets/poster/HACKATHON.webp'
 import robo_race from '../assets/poster/robo_race.webp'
-import ideathon from '../assets/poster/IDEATHON.webp'
 
 export const CompetitionList=[
     {
@@ -31,7 +34,7 @@ export const CompetitionList=[
         img:cosplay,
         title:"Cosplay",
         description:"Step into the world of fantasy and transformation at FENOMENON’s Cosplay Event! Whether you embody a legendary hero, a fierce warrior or an iconic character, this is your moment to shine. Participants are free to cosplay as anything, as long as it’s appropriate and respects the integrity of the character. Suit up, bring your persona to life and let the stage be your ultimate battleground!",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"2:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -96,7 +99,7 @@ export const CompetitionList=[
         img:innovation_expo,
         title:"Innovation Expo",
         description:"A Showcase of Ideas & Ingenuity where creativity meets technology, FENOMENON’s Innovation Expo brings groundbreaking projects to life! From engineering marvels to revolutionary concepts, this is the stage for innovators across all fields to showcase their brilliance. Witness ideas that push boundaries, solutions that inspire and inventions that shape the future. Step in, explore, and experience the power of innovation.",
-        date:"28TH ARPIL 2025",
+        date:"28TH APRIL 2025",
         time:"1:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -161,7 +164,7 @@ export const CompetitionList=[
         img:photography,
         title:"Spot Photography",
         description:"Capture the essence of the moment at FENOMENON’s Spot Photography Competition! Armed with a phone, tablet or DSLR, participants will have two days to explore, observe and freeze time through their lenses. Every snapshot tells a story, blending artistry with spontaneity. Frame the extraordinary, craft a poetic narrative and let your vision speak louder than words!",
-        date:"28TH - 29TH ARPIL 2025",
+        date:"28TH - 29TH APRIL 2025",
         time:"11:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -226,7 +229,7 @@ export const CompetitionList=[
         img:bgmi,
         title:"BGMI (Battlegrounds Mobile India) Tournament",
         description:"Lock and load for the ultimate battle royale at FENOMENON’s BGMI Tournament! Squad up, drop in and fight for survival as you outplay, outgun and outlast your opponents. Strategy, teamwork and precision will determine the last team standing. Are you ready to claim the battleground?  ",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"12:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -291,7 +294,7 @@ export const CompetitionList=[
         img:mlbb,
         title:"MLBB (Mobile Legends: Bang Bang) Tournament",
         description:"Assemble your squad and dominate the arena in FENOMENON’s MLBB Tournament! Show off your skills, execute game-changing strategies and lead your team to victory in this intense 5v5 MOBA showdown. Only the strongest will rise—do you have what it takes to be legendary?  ",
-        date:"28TH - 30TH ARPIL 2025",
+        date:"28TH - 30TH APRIL 2025",
         time:"1:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -356,7 +359,7 @@ export const CompetitionList=[
         img:tekken,
         title:"Tekken 8 Tournament",
         description:"Step into the ring and unleash your fiercest combos at FENOMENON’s Tekken 8 Tournament! Face off against the best fighters, master your techniques and prove your dominance in this high-intensity battle of skill and reflexes. Only one can stand victorious—will it be you?",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"11:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -411,8 +414,8 @@ export const CompetitionList=[
         incharge:"Laishram Devakar",
         contact:"+91 8132851238",
         deadline:"12:00 AM, 26th April, 2025",
-        registration:"",
-        guidelines:"",
+        registration:"https://forms.gle/22DFULB23Lde3tXm7",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vQrlZjhxaTMWsge7QtDA9uEEKsZXQXfQkVaZHsiI5_IatM6hmI0kaBv75NBzk1Ucw/pub",
     },
 
     {
@@ -421,7 +424,7 @@ export const CompetitionList=[
         img:dance,
         title:"Dance Competition",
         description:"Unleash your rhythm and set the stage on fire at FENOMENON’s Dance Competition! Whether you groove solo or move as a team, this is your chance to captivate the crowd with breathtaking performances. Choose your style—Cultural, Modern or K-Pop—and bring your A-game to the ultimate dance showdown. Get ready to mesmerize, compete and own the spotlight!",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"10:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -486,7 +489,7 @@ export const CompetitionList=[
         img:food,
         title:"Food Fiesta",
         description:"Ready to feast like a champion? FENOMENON’s Food Fiesta is not just a competition—it’s a battle of appetite, speed and sheer willpower! Brace yourself for a thrilling showdown where only the fastest, fiercest and most fearless foodies will reign supreme. Whether you savor every bite or devour with lightning speed, this is your chance to prove you’ve got the stomach for victory. Come hungry, leave legendary!",
-        date:"30TH ARPIL 2025",
+        date:"30TH APRIL 2025",
         time:"10:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -551,7 +554,7 @@ export const CompetitionList=[
         img:reels,
         title:"Reels Competition",
         description:"Lights, camera, action! FENOMENON’s Reels Competition is your stage to craft the most entertaining, eye-catching and engaging reels. Whether it’s humor, storytelling or pure cinematic magic, the amount of creativity in you sets the rules. Grab your phone, bring your vision to life and let the world stop scrolling for your masterpiece.",
-        date:"11TH - 27TH ARPIL 2025",
+        date:"11TH - 27TH APRIL 2025",
         time:"Anytime",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -616,7 +619,7 @@ export const CompetitionList=[
         img:treasure_hunt,
         title:"Treasure Hunt",
         description:"Mystery, adventure and mind-bending clues await at FENOMENON’s Treasure Hunt! Sharpen your wits, trust your instincts and race against time as you unravel riddles and uncover hidden secrets. Every clue brings you closer to victory but only the cleverest will claim the prize. Do you have what it takes to outsmart the rest and seize the treasure? Let the hunt begin!",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"11:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -681,7 +684,7 @@ export const CompetitionList=[
         img:painting,
         title:"Painting Competition",
         description:"Unleash your imagination and let your art speak at FENOMENON’s Painting Competition! Whether you sketch, shade or splash colors onto the canvas, this is your chance to bring creativity to life. Every stroke tells a story, every masterpiece makes a mark—will yours stand out? Pick up your tools and let your artistry shine!",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"10:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -746,7 +749,7 @@ export const CompetitionList=[
         img:ramp_walk,
         title:"Ramp Walk",
         description:"Grace, elegance and heritage take center stage at FENOMENON’s Cultural Fashion Show! Strut the runway in dazzling traditional attire, celebrating the rich diversity of culture through fashion. From intricate weaves to bold patterns, every step is a statement, every outfit a masterpiece. Own the stage, embrace the heritage and let the world witness the beauty of tradition in motion!",
-        date:"28TH ARPIL 2025",
+        date:"28TH APRIL 2025",
         time:"2:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -811,7 +814,7 @@ export const CompetitionList=[
         img:quiz,
         title:"Quiz Competition",
         description:"Get ready to test your knowledge and quick thinking in FENOMENON’s Quiz Competition! From tech to trivia, logic to pop culture—nothing is off-limits. Gather your team, answer under pressure and race for the top spot. Only the sharpest minds will rise—are you game?",
-        date:"28TH ARPIL 2025",
+        date:"28TH APRIL 2025",
         time:"12:30 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -877,7 +880,7 @@ export const CompetitionList=[
         img:buildcon,
         title:"Build Con (Structural Design)",
         description:"Engineers, it’s time to build and break! Test your creativity and structural knowledge by crafting the strongest bridge using just popsicle sticks. Precision, planning and a bit of brute force will be your allies in this battle of design and durability.",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"9:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -942,7 +945,7 @@ export const CompetitionList=[
         img:Auto_cad,
         title:"AutoCAD Designing",
         description:"Bring your imagination to life through precision drafting in AutoCAD! Participants will create technical 2D designs based on real-world themes. Whether it’s architecture or machinery, show off your command of digital design and engineering accuracy.",
-        date:"28TH ARPIL 2025",
+        date:"28TH APRIL 2025",
         time:"11:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1007,7 +1010,7 @@ export const CompetitionList=[
         img:threeDdesign,
         title:"3D Design & Modeling ",
         description:"Step into the world of 3D modelling with SolidWorks! Create mechanical marvels, intricate assemblies or concept prototypes and demonstrate your finesse in CAD. This event challenges your creativity and technical command of design software.",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"10:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1072,7 +1075,7 @@ export const CompetitionList=[
         img:pcb,
         title:"PCB Designing",
         description:"Delve into electronics by designing your own printed circuit boards! From layout to routing, this event pushes your understanding of circuits and PCB tools. Showcase smart, efficient and compact designs that could power real-world systems.",
-        date:"30TH ARPIL 2025",
+        date:"30TH APRIL 2025",
         time:"9:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1137,7 +1140,7 @@ export const CompetitionList=[
         img:circuit_debugging,
         title:"Circuit Debugging",
         description:"Put your logic to the test in this electrifying event! Faulty circuits await your sharp eyes and steady hands. Analyse, detect and fix errors to restore power. It’s a thrilling race against time and resistance!",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"10:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1202,7 +1205,7 @@ export const CompetitionList=[
         img:line_follower,
         title:"Line Follower",
         description:"Build a bot, program it smart, and watch it race! In the Line Follower challenge, your robot must detect and follow a predefined path. Speed, accuracy and sensor logic are key—can your bot go the distance?",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"11:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1267,7 +1270,7 @@ export const CompetitionList=[
         img:electric_puzzle,
         title:"Electric Puzzle",
         description:"A shocking twist on brain teasers! Solve electrifying puzzles that blend logic, circuits and a touch of mystery. It’s the perfect mix of fun and challenge for budding electrical minds.",
-        date:"28TH ARPIL 2025",
+        date:"28TH APRIL 2025",
         time:"11:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1328,11 +1331,11 @@ export const CompetitionList=[
 
     {
         id:21,
-        name:"Competitve Programming",
+        name:"Competitive Programming",
         img:competitive,
-        title:"Competitve Programming",
+        title:"Competitive Programming",
         description:"Code. Compile. Conquer. In this time-bound challenge, solve real-world problems through logic and algorithms. Only the most efficient and clean coders will rise to the top. Ready to debug the competition?",
-        date:"28TH ARPIL 2025",
+        date:"28TH APRIL 2025",
         time:"11:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1397,7 +1400,7 @@ export const CompetitionList=[
         img:UIdesign,
         title:"UI Desigining",
         description:"It’s not just about looks—it’s about user experience! In the UI Designing event, create interfaces that are intuitive, functional and visually appealing. Your goal: balance form with function to deliver the ultimate digital.",
-        date:"30TH ARPIL 2025",
+        date:"30TH APRIL 2025",
         time:"9:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1459,10 +1462,10 @@ export const CompetitionList=[
     {
         id:23,
         name:"Full Stack Development",
-        img:hackathon,
+        img:full_stack,
         title:"Full Stack Development",
         description:"Unleash your inner developer in this high-stakes coding challenge where creativity meets functionality. Participants will design and build a complete web application—frontend to backend—within a fixed time. With real-world problem statements and full creative freedom, this is the ultimate test of your full stack prowess. Show us your code, your UI and your logic—because here, it’s all or nothing!",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"11:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1513,7 +1516,7 @@ export const CompetitionList=[
                 fee:null
             }
         },
-        fee:"₹500",
+        fee:"₹300",
         incharge:"Naoroibam Lanngamba Luwang",
         contact:"+91 8413847705",
         deadline:"12:00 AM, 26th April, 2025",
@@ -1527,7 +1530,7 @@ export const CompetitionList=[
         img:robo_race,
         title:"Robo Race",
         description:"Unleash your inner Mech Master! In Robo Race, custom-built bots go head-to-head across challenging tracks filled with turns, ramps and obstacles. Speed, stability and control will define the champion bot.",
-        date:"28TH ARPIL 2025",
+        date:"28TH APRIL 2025",
         time:"11:30 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
@@ -1592,7 +1595,7 @@ export const CompetitionList=[
         img:ideathon,
         title:"Ideathon",
         description:"Pitch it like a pro! Present innovative business models that are impactful, feasible and future-ready. From tech startups to social solutions, convince the judges why your idea is the next big thing.",
-        date:"29TH ARPIL 2025",
+        date:"29TH APRIL 2025",
         time:"11:00 AM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
