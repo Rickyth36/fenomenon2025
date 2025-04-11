@@ -1,4 +1,4 @@
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram,faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import PRLogo from '../assets/logos/PRClub.webp';
@@ -30,6 +30,10 @@ export default function Footer() {
                         <div className='flex gap-4 mt-3 items-center justify-center'>
                             <Link target='_blank' to="https://www.instagram.com/fenomenonmtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >
                                 <FontAwesomeIcon icon={faInstagram} className='text-white hover:text-[#821eff] text-3xl'/>
+                            </Link>
+
+                            <Link target='_blank' to="https://www.facebook.com/share/1BpsMB6XCk/?mibextid=wwXIfr" >
+                                <FontAwesomeIcon icon={faFacebook} className='text-white hover:text-[#821eff] text-3xl'/>
                             </Link>
                         
                             <Link target='_blank' to="https://mtu.ac.in/">

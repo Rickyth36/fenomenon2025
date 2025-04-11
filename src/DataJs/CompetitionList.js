@@ -88,9 +88,9 @@ export const CompetitionList=[
         fee:"₹400",
         incharge:"Alonika Langhu",
         contact:"+91 8787682353",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/hJs4jKkWvVC5AZ4Y8",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRHwkxojfJEnzuN5Rtjg5g3rCSN9aSbtWzvmDEu-omVZcFyHy12jA7062VQY2eAE5-7xTeyJ3G9xLsX/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTFcsQlqiss3zQcNANWiBFjYlRIOSGFGpXOiXJQyMycEt__9ObGsbUhp9hcNcUjEA/pub",
     },
     
     {
@@ -153,9 +153,9 @@ export const CompetitionList=[
         fee:"₹200",
         incharge:"CH Moranshim",
         contact:"+91 8787725110",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/FpeCNMUgPejtfykk6",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTkFsEu8TRNodEs-YuwUS3jukK2edxpKVCir1_DHaijXnu-bJPbIWGGW_kgJOt-Yw/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRQ86n9aheByjXCd-kHrDr3o8xWT2GlJJWDvpakWPXGvIMOjRHkruoBURt__uCTQA/pub",
     },
 
     {
@@ -218,9 +218,9 @@ export const CompetitionList=[
         fee:"Free",
         incharge:"Mangangamba Oinam",
         contact:"+91 7005400138",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/5tL9eyanHDTxtobr5",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vSK1_vznJcWkYm1B62Ih6-KBZlLPwkJVOHnmz1igLE6mNbwIZvtoosr2W63KqdyAGUwn998RLbm6j9V/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vQ8VpCBLNo82yadIxZQHgtoYJK1GKktQf7kDHtLQcA6VUJnVgtvdX75etI6dAlK7g/pub",
     },
 
     {
@@ -233,10 +233,15 @@ export const CompetitionList=[
         time:"12:00 PM",
         venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
         cashPrize: {
-            first: "₹15000",
-            second: "₹10000",
-            third: "₹7000",
-            consolation: "₹2000(most kills)"
+            first: "₹13000",
+            second: "₹8000",
+            third: "₹5000",
+            fourth: "₹3000",
+            fifth: "₹2000",
+            sixth: "₹1000",
+            seventh: "₹2000",
+            eighth: "₹1000",
+            consolation: "₹1000(3 chicken dinner with 45 kills team)"
         },       
         
         isCategorized:false,
@@ -283,9 +288,9 @@ export const CompetitionList=[
         fee:"₹700",
         incharge:"Longjam Venus Singh",
         contact:"+91 7005068545",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"22nd April, 2025(Qualifying rounds will be started on 23rd April online)",
         registration:"https://forms.gle/7rRuSqxWPkuFTeMt9",
-        guidelines:"https://docs.google.com/document/u/5/d/e/2PACX-1vRT2wEYj6g5ovYBsO1tm61Q-bS9GC0hQbud3wRc2Jm4Godzawpph40sO7WzPCzmzA/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRT2wEYj6g5ovYBsO1tm61Q-bS9GC0hQbud3wRc2Jm4Godzawpph40sO7WzPCzmzA/pub",
     },
 
     {
@@ -348,9 +353,9 @@ export const CompetitionList=[
         fee:"₹800",
         incharge:"Konsam Bikash Singh",
         contact:"+91 9863124645",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"22nd April, 2025 (Qualifying rounds will be started on 25th,26th and 27th April online)",
         registration:"https://forms.gle/1bWsgpynATNehzMNA",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vR6rQReTvmyswAzh3jeJvdQFrsK_P1rua-DoWuu3d4qAX2rk97LdBnu5wdAIHFO9w/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vSxEbvvDhZKhZNEZ_5-4TskDGy3HBQRFz0Wq17aXgfYJ73KUAC8Rf1iKsNc5h6kDA/pub",
     },
 
     {
@@ -413,7 +418,7 @@ export const CompetitionList=[
         fee:"₹250",
         incharge:"Laishram Devakar",
         contact:"+91 8132851238",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/22DFULB23Lde3tXm7",
         guidelines:"https://docs.google.com/document/d/e/2PACX-1vQrlZjhxaTMWsge7QtDA9uEEKsZXQXfQkVaZHsiI5_IatM6hmI0kaBv75NBzk1Ucw/pub",
     },
@@ -478,9 +483,9 @@ export const CompetitionList=[
         fee:null,
         incharge:"Krishnakanta Soibam",
         contact:"+91 9362658468",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"24th April, 2025",
         registration:"https://forms.gle/Md3eS4Q8bnjFLNdR7",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vT1O44lv5zhr7y6rY731LvIvTzdJn1EJ8wwJlKzOszRk1aMDBLkGayLk5HLHjO-vA/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTsLuSJgU1t3lB8fCalPC2_fjW62BD126DFuWtnpvnq_ABfYMEk_TJVi8KjIny7CA/pub",
     },
 
     {
@@ -543,9 +548,9 @@ export const CompetitionList=[
         fee:"₹300",
         incharge:"Sanjana Takhellambam",
         contact:"+91 9862151258",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/apZ4CGkZAotwbtzg9",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vSUeuK87wd5iKOszDoyucttEI0nsrFCakVD_HdZ5BrqFaZKSowHQ7jyR1y-S0ZKbw/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTsXHu8_3vF4u8LAF3qkelvhTEL9tffoXO0JHEjCDSEFDoEDl6k_U_Qlk89cLYH1g/pub",
     },
 
     {
@@ -608,9 +613,9 @@ export const CompetitionList=[
         fee:"Free",
         incharge:"Leishangthem Chaoba Devi",
         contact:"+91 9863724399",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"27th April, 2025",
         registration:"https://forms.gle/f3Hg84xAJejLQVas7",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTayYdBhiG3t937Bg_XlJN4Jc2ked0IBnyiaabYr7TGqtAJrjF5JgWv_toechbjvw/pub",
+        guidelines:"https://docs.google.com/document/u/1/d/e/2PACX-1vQ-WyIxitz5xEVih4QogIeOzImNVi_PGYShAWiMz-6Kw-X8g9U2tBrgvCPW26_fNw/pub",
     },
 
     {
@@ -673,9 +678,9 @@ export const CompetitionList=[
         fee:"₹150",
         incharge:"Wilson Thangjam",
         contact:"+91 9863018798",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/fzsXST2VXZ3gjapSA",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRMgS861v-mbAuNwnKrtVXOJl6xJMciZITI-BxgSueEZYKuiCEu1oS_y2hJGUiWgA/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vSw8ehjL2iaE68EDQx8EwJkpgZonH-8393t8Vo57NNnDISB-mYllQ17Fmrp18mlUA/pub",
     },
 
     {
@@ -738,9 +743,9 @@ export const CompetitionList=[
         fee:null,
         incharge:"Bishan Yensembam",
         contact:"+91 9402700768",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/JPfLX7YSzGbptzsS8",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vQic7Urg2S9E4tjqk3by5tszoGxXxPziLhRPzw87Ncc2YArczMoDi6B1TQSI81RiEkGE5x7IiqQbWsG/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRfwpSS7pHZhVMYLayPmsy1X3Xk-G4MQ2Ng1CdMpNrjvGXEXPxGVJB4zm0ZGz8hmA/pub",
     },
 
     {
@@ -800,19 +805,19 @@ export const CompetitionList=[
                 fee:null
             }
         },
-        fee:"₹300",
+        fee:"₹200",
         incharge:"Kilangleima Chingsubam & Tina Salam",
         contact:"+91 6009398519 or +91 7005965550",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/qbixQdVt1nqXoQhg6",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTSpBu5pvNdOdlb6ddhFLZ2mzytKYYNSbNxDOxwg2YPQf3dTdrpqIJoULkre5_guw/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTitndjz6SqJHDp1pNWsjH76JMIN5ncNmAoXJXDjnZVfGPqf1I58Y_BBHarINVXRg/pub",
     },    
 
     {
         id:13,
-        name:"Quiz Competition(IX - XII)",
+        name:"Quiz Competition",
         img:quiz,
-        title:"Quiz Competition",
+        title:"Quiz Competition (IX - XII)",
         description:"Get ready to test your knowledge and quick thinking in FENOMENON’s Quiz Competition! From tech to trivia, logic to pop culture—nothing is off-limits. Gather your team, answer under pressure and race for the top spot. Only the sharpest minds will rise—are you game?",
         date:"28TH APRIL 2025",
         time:"12:30 PM",
@@ -868,15 +873,15 @@ export const CompetitionList=[
         fee:"Free",
         incharge:"Avidas Takhellambam",
         contact:"+91 8414031448",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/bt2GozRmPon1mVrS8",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vSItxXei6uNDosd7T8_5Ge-t54EAE4cKEqhQcA0gtX9iijkk-CizBYcfGcJBNstzeIK3VfeFXt9GfG9/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vSKiJ8Oyb7iPHFmdIap3_YvE5v3k5Ml4J0R6BJO63mW4iE2I4UzYjjVLdo8fL7s2g/pub",
     },    
 
 // Depatment Events    
     {
         id:14,
-        name:"Build Con (Structural Design)",
+        name:"Build Con",
         img:buildcon,
         title:"Build Con (Structural Design)",
         description:"Engineers, it’s time to build and break! Test your creativity and structural knowledge by crafting the strongest bridge using just popsicle sticks. Precision, planning and a bit of brute force will be your allies in this battle of design and durability.",
@@ -934,7 +939,7 @@ export const CompetitionList=[
         fee:"₹250",
         incharge:"Yaikhomba Wairokpam",
         contact:"+91 9862111692",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/Es4UMwCBGNFraSx4A",
         guidelines:"https://docs.google.com/document/d/e/2PACX-1vQfDXlv2SseSP-9mKZ9MMa0-Sj84b-bIOiLZc_M4ldwdJH5CTvECu-9wchWg3bEzw/pub",
     },   
@@ -999,9 +1004,9 @@ export const CompetitionList=[
         fee:"₹200",
         incharge:"Kshetrimayum Ryan Singh",
         contact:"+91 8974524718",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/EY6EwLQ94JaSHe58A",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vQ68_vDu_vi4Eivd2SIVBV9yhJR-624uK1UahZSmUO70z4z9BWUF8NbX9MiqBv7jNGDZf13lf9dwhQp/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vQLZvFWKhegUVIo2sjFiVrTPakBdZjErQ4tD3BK7dne6yuWvamithbyx1ng6sXyfw/pub",
     },    
 
     {
@@ -1064,9 +1069,9 @@ export const CompetitionList=[
         fee:"₹250",
         incharge:"Konjengbam Derrick",
         contact:"+91 9863540042",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/hfE986jCvKCJjRyU7",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vQnwMoYHri0xNlijifmYTNeAm4J-aXcAqC-3MDpp11Vm8MfG3SKb_KTp0bXMVNT9A/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTliMK1rQ7V-LmFvLKDFWOYaJ3ZaB_NqbC3ewWQHVllqdrCgsTJ9g6H4oeqaYhZuw/pub",
     },    
 
     {
@@ -1129,9 +1134,9 @@ export const CompetitionList=[
         fee:"₹100",
         incharge:"Yengkhom David Singh",
         contact:"+91 6009101493",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/osmSovtHrjLAo17c6",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vT9dKLEohH3eW00OSZ-5NOWhf-6JDqaErYqyxc_HnDPkfn0G_iFacLkE35ulxOZ10mtnnXJQuiCtJjA/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vS1QoCQ2C69sEXF8x8eatpwxaAOsSye9kkBmTN12MRfUCTmXJatrRWbaEHAMuISyg/pub",
     },    
 
     {
@@ -1194,9 +1199,9 @@ export const CompetitionList=[
         fee:"₹200",
         incharge:"Bronsun Soubam",
         contact:"+91 9366731651",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/ZYAvHFXWmArLaJDT9",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTxMDD8VE3a7OtJjpP68HnCY3kn_AOwMpiQAB5hYFBiZxj_fPcdEVklgeYXNzpOSDGcuDuEZ90FgU2A/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRC3XCkda_IFN8bfM5U4GgXvoRt9BBGRyJjEGadMfqt7KmTrfBwbFKjMWW7LU393g/pub",
     },    
 
     {
@@ -1259,16 +1264,16 @@ export const CompetitionList=[
         fee:"₹200",
         incharge:"Mongjam Diviyarani Devi",
         contact:"+91 6909959889",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/jXcV3yrV1qz5BZj99",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vQgnKQylbq3yEW9D36eFw169djHPt0l7IjyErsj6Wi1_30HC7YORIZxPNemwVb5hQ/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTJkUBiExas0Sj_EbypFjMtWTt8oNf_dlE-95s9ckwHB6KPg7PuMCfq3tQlfMgDTg/pub",
     },    
 
     {
         id:20,
-        name:"Electric Puzzle",
+        name:"Electrical Puzzle",
         img:electric_puzzle,
-        title:"Electric Puzzle",
+        title:"Electrical Puzzle",
         description:"A shocking twist on brain teasers! Solve electrifying puzzles that blend logic, circuits and a touch of mystery. It’s the perfect mix of fun and challenge for budding electrical minds.",
         date:"28TH APRIL 2025",
         time:"11:30 AM",
@@ -1324,7 +1329,7 @@ export const CompetitionList=[
         fee:"₹200",
         incharge:"Waikhom Sadananda singh",
         contact:"+91 6009394191",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/QrCR8Gbaeue19Yu5A",
         guidelines:"https://docs.google.com/document/d/e/2PACX-1vQXIAhfN_CgN0QI2qSAnur1jPDk9EZhXX8q_a3OUb1buen1-pzSvjwLGxK1IiwD7Q/pub",
     },    
@@ -1389,9 +1394,9 @@ export const CompetitionList=[
         fee:"₹200",
         incharge:"Meishnam Liya Devi",
         contact:"+91 6009757951",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/puAuT5rTYtaZxZ436",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTucPt4THQV-6e-da7pZxnBdJzY5FKLUnchLqGg7LzqXL43hh-kDo5OdWsgRDMTjkcWXmryJe4jVcBO/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vTXIbhlh-AEWtQODaaDo_unQApTL90Pfo3KLnubCH9VsaVAlLM7Kl2niE1MaNiEFw/pub",
     },    
 
     {
@@ -1454,9 +1459,9 @@ export const CompetitionList=[
         fee:"₹250",
         incharge:"Pinky Thokchom",
         contact:"+91 8787584755",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/W3N5iG86ZHdAgFST6",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vT-D6bXVYvEbE9fSpNoyE8bdk2AEXCWWVPNEMpugkhHqIEViO4G-nUvzXRTAWmREkcpw3vxUz41-cOo/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRt9mUWlUj8WiXPQ6w0KhEpAjKx92nt5zlYxMZ7ihNjEHANS1COmGsZB1nejCrvWg/pub",
     },    
 
     {
@@ -1519,7 +1524,7 @@ export const CompetitionList=[
         fee:"₹300",
         incharge:"Naoroibam Lanngamba Luwang",
         contact:"+91 8413847705",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/ntYm1ftEkXeYPtap6",
         guidelines:"https://docs.google.com/document/d/e/2PACX-1vSgu8gvR0lMsg50UiFaVDtKa1v1M91fumBVYttuU85h-5VtnFH_xU5Q0frWOGsWjw/pub",
     },    
@@ -1584,9 +1589,9 @@ export const CompetitionList=[
         fee:"₹300",
         incharge:"Pougui Kamei",
         contact:"+91 8413068609",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/x9Nbnv9ano2iM1k77",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRE5DWkXVLxa57Oi4hQ2eykDQJ5pzJDdHJ4yZTkn_rHPi8KdwJEKVUuCdiXuIA0oLYo9fnr1YyaaRkL/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vQIXDjPdjpSK3-ascFsC9d11x89YqFmhejSS5cbvbmqiuT914452lrvkdF73xXVAw/pub",
     },    
 
     {
@@ -1649,9 +1654,9 @@ export const CompetitionList=[
         fee:"₹300",
         incharge:"Clinton Thongam",
         contact:"+91 7085926882",
-        deadline:"12:00 AM, 26th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/W47WFbckWhiTckpx7",
-        guidelines:"https://docs.google.com/document/d/e/2PACX-1vSB_OCPuYZ5iTQkzCmOCXacg10WX81oJjzPwIwwTSAfUPSXllCPIUkHgG5i6mbgPQ/pub",
+        guidelines:"https://docs.google.com/document/d/e/2PACX-1vRBdmMtIfgOw6yzU5xWPEHAas4KqqlLlOvhvjqJaGDt4Z0cChH0y8DW3fOH6EffCw/pub",
     },    
 
 ]

@@ -111,7 +111,7 @@ function CompetitionDetail() {
             <div className='relative'>         
                 <div className='h-12 md:h-24'></div>
                     <h1 className='text-4xl md:text-8xl my-9 text-center'>Competition details</h1>
-                    <div className='bg-zinc-800 md:w-[90%] rounded-xl p-6 mt-4 mx-auto'>
+                    <div className='bg-zinc-800 md:w-[93%] rounded-xl p-6 mt-4 mx-auto'>
                         <div className='flex flex-col md:flex-row gap-4 md:gap-14  '>
                             {/* left */}
                             <div className='flex items-center justify-center'>
@@ -133,7 +133,7 @@ function CompetitionDetail() {
 
                             {/* right */}
                             <div className='flex flex-col items-center md:items-start'>
-                                <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-3xl md:text-5xl font-bold text-center md:text-start'>{competition.name}</p>
+                                <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-3xl md:text-5xl font-bold text-center md:text-start'>{competition.title}</p>
                                 <p className='mt-5 text-sm md:text-lg text-center text-justify md:text-left'>{competition.description}</p>
                                 <div className='flex flex-col md:flex-row mt-3 md:mt-12 gap-6 p-3 md:p-0 bg-zinc-900 md:bg-transparent rounded-md justify-center md:justify-around'>
                                     <div className='flex gap-1 items-center justify-center text-md'> <ImCalendar className='text-blue-500' /><span>{competition.date}</span></div>
@@ -170,7 +170,7 @@ function CompetitionDetail() {
                                         ):
                                         <div>
 
-                                        <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl font-bold'>Junior (Class VI - X)</p>                                          
+                                        <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl font-bold'>Junior (Class III -  VIII)</p>                                          
                                         <div className='flex gap-4 mt-2'>
                                           <p> 🏆First{competition.category.junior.cashPrize.first}</p>
                                           <p className={`${competition.category.junior.cashPrize.second ? 'block': 'hidden'}`}> 🥈Second:{competition.category.junior.cashPrize.second}</p>
@@ -178,7 +178,7 @@ function CompetitionDetail() {
                                           <p className={`${competition.category.junior.cashPrize.consolation ? 'block': 'hidden'}`}  > Consolation:{competition.category.junior.cashPrize.consolation}</p>
                                         </div>
                                         <p className='mt-2 md:mt-3 text-md md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.junior.fee}</span></p>
-                                        <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl font-bold mt-6'>Senior (Class XI and above)</p>                                          
+                                        <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl font-bold mt-6'>Senior (Class IX and above)</p>                                          
                                         <div className='flex gap-4 mt-2'>
                                           <p> 🏆First{competition.category.senior.cashPrize.first}</p>
                                           <p className={`${competition.category.senior.cashPrize.second ? 'block': 'hidden'}`}> 🥈Second:{competition.category.senior.cashPrize.second}</p>
@@ -196,6 +196,10 @@ function CompetitionDetail() {
                                       <p> 🏆First:{competition.cashPrize.first}</p>
                                       <p className={`${competition.cashPrize.second ? 'block': 'hidden'}`}> 🥈Second:{competition.cashPrize.second}</p>
                                       <p className={`${competition.cashPrize.third ? 'block': 'hidden'}`}> 🥉Third:{competition.cashPrize.third}</p>
+                                      <p className={`${competition.cashPrize.fourth ? 'block': 'hidden'}`}>4️⃣:{competition.cashPrize.fourth}</p>
+                                      <p className={`${competition.cashPrize.fifth ? 'block': 'hidden'}`}> 5️⃣:{competition.cashPrize.fifth}</p>
+                                      <p className={`${competition.cashPrize.sixth ? 'block': 'hidden'}`}> 6️⃣:{competition.cashPrize.sixth}</p>
+                                      <p className={`${competition.cashPrize.seventh ? 'block': 'hidden'}`}> Most kills:{competition.cashPrize.seventh}</p>
                                       <p className={`${competition.cashPrize.consolation ? 'block': 'hidden'}`}  > Consolation:{competition.cashPrize.consolation}</p>
                                     </div>
                                 </div>                                  

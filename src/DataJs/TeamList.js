@@ -15,7 +15,7 @@ import diyabarta from '../assets/team/dept_incharge/diya.webp'
 import lanngamba from '../assets/team/event_incharge/IMG_241003_053601 - NAOROIBAM LANNGAMBA LUWANG.webp'
 import venus from '../assets/team/event_incharge/B2C68E00-92BC-4B7B-98EA-FA2C7C135579 - LONGJAM VENUS SINGH.webp'
 import kilangleima from '../assets/team/event_incharge/IMG_20250405_212940 - KILANGLEIMA CHINGSUBAM.webp'
-import tina from '../assets/team/event_incharge/224f9aee-21ff-4c4b-93e3-26dcc79debe1 - Tina Salam.webp'
+import tina from '../assets/team/event_incharge/tina.webp'
 import ryan from '../assets/team/event_incharge/ryan.webp'
 import bishan from '../assets/team/event_incharge/20250405_105100 - BISHAN YENSEMBAM.webp'
 import pinky from '../assets/team/event_incharge/IMG_2751 - Pinky Thokchom.webp'
@@ -44,7 +44,7 @@ import ricky from '../assets/team/technical/ricky.webp'
 import nilambar from '../assets/team/technical/IMG_20250407_160135 - NILAMBAR ELANGBAM.webp'
 import joymangol from '../assets/team/technical/IMG_20250407_160304 - JOYMANGOL CHINGANGBAM.webp'
 
-import nongshaba from '../assets/team/design/IMG_20250407_163524326_3 - naorem naoba nongshaba.webp'
+import nongshaba from '../assets/team/design/nongshaba.webp'
 import llhanba from '../assets/team/design/llhanba.webp'
 import anuj from '../assets/team/design/anuj.webp'
 import dayananda from '../assets/team/design/dayananda.webp'
@@ -327,7 +327,7 @@ export const EventIncharge=[
         img:sadananda,
         name:"Waikhom Sadananda Singh",
         role:"In-Charge",
-        event:"Electric Puzzle",
+        event:"Electrical Puzzle",
         email:"sadananda_w21@mtu.ac.in",
         number:"+91 6009394191"
     },

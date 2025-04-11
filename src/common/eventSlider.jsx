@@ -71,6 +71,16 @@ const EventSlider = () => {
             <img className='w-full object-cover  rounded-lg' src={soraren} alt="" />
           </div>
         </SwiperSlide>
+        <SwiperSlide className="text-white">
+          <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
+            <img className='w-full object-cover  rounded-lg' src={soraren} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-white">
+          <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
+            <img className='w-full object-cover  rounded-lg' src={soraren} alt="" />
+          </div>
+        </SwiperSlide>
       </Swiper>    
     </div>
   )

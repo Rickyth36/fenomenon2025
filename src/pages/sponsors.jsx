@@ -110,7 +110,7 @@ function Team() {
           <div>
             <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Our Sponsors</p>
             {/* <div className='mx-auto grid grid-cols-1 md:grid-cols-5 p-5 gap-y-4 md:gap-y-10 gap-x-1 justify-center items-center place-items-center '> */}
-            <div className='mx-auto flex flex-row space-x-5 space-y-5 md:space-y-0 items-center justify-center'>
+            <div className='mx-auto flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0 items-center justify-center'>
               {
                 allSponsorList.map((item,index)=>(
                   <SponsorCard key={index} img={item.img} name={item.name} />
