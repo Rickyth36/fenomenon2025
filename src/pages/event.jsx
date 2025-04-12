@@ -11,12 +11,14 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 // import TicketCard from '../common/ticketCard';
 
-// import blood_poster from '../assets/poster/blood_donation.webp'
+import blood_poster from '../assets/events/blood_donation.webp'
 import meewakching from '../assets/events/meewakching.webp'
 import soraren from '../assets/events/soraren.webp'
+import enung_sowa from '../assets/events/enung_sowa.webp'
 
 import diana from '../assets/events/diana.webp'
-import enung_sowa from '../assets/events/enung_sowa.webp'
+import yelhomie from '../assets/events/yelhomie.webp'
+import blood_donation_pdf from '../assets/guidelines/blood_donation_guidelines.pdf'
 
 
 
@@ -133,7 +135,7 @@ const Event = () => {
                     <div className='flex gap-1 items-center justify-center'> <FaLocationDot className='text-red-400' /><span>MTU CAMPUS, TAKYELPAT, I/W</span></div>
                 </div>            
               </div>            
-              {/* <div>
+              <div>
                 <div className='flex items-center justify-center'>
                   <div class="glowCard">
                     <div class="card2">
@@ -144,6 +146,7 @@ const Event = () => {
                         <p className='text-md md:text-xl mt-2 md:mt-5 text-center font-semibold'>Blood Donation Camp</p>
                         <div className='flex gap-4 items-center justify-center w-full'>
                           <a target="_blank" rel="noopener noreferrer"  href="https://forms.gle/fXAyzGYbBQ7cqjfu8" class="btn register w-1/3 md:w-1/2 mt-4">Register</a>
+                          <a href={blood_donation_pdf} target="_blank" rel="noopener noreferrer" class="btn guidelines w-1/2 mt-4">Guidelines</a>
                         </div>
                       </div>
                       </div>
@@ -153,7 +156,7 @@ const Event = () => {
                 <div>
 
                 </div>
-              </div> */}
+              </div>
             </div>
 
             <div>
@@ -173,8 +176,9 @@ const Event = () => {
             <div>
               <p className='text-3xl md:text-5xl px-4 py-5 text-center font-bold'>Performing Artists</p>
               {/* <div className='mt-4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-y-5  place-items-center  '> */}
-              <div className='flex flex-col md:flex-row items-center justify-center mx-auto'>
+              <div className='flex flex-col gap-10 md:flex-row items-center justify-center mx-auto'>
                 <EventCard img={diana} name="Diana Moirangthem"/>
+                <EventCard img={yelhomie} name="Yelhomie"/>
               </div>
             </div>
 

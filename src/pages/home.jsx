@@ -208,7 +208,7 @@ export default function Home(){
           <div className="relative my-10">
             <h1 className='text-3xl relative text-white font-bold md:text-5xl text-center'>Competitions</h1>
             {/* <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-y-10 gap-x-5 place-items-center '> */}
-            <Marquee className='relative flex flex-row  gap-6 mt-10' speed={50}
+            <Marquee className='relative flex flex-row  gap-6 mt-10' speed={70}
                 gradient={true} gradientColor='rgb(14,12,21)'   gradientWidth={100} autoFill={true}>
               {
                 CompetitionList.map((item,index) => (

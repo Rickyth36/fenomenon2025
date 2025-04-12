@@ -946,9 +946,9 @@ export const CompetitionList=[
 
     {
         id:15,
-        name:"AutoCAD Designing",
+        name:"2D AutoCAD Designing",
         img:Auto_cad,
-        title:"AutoCAD Designing",
+        title:"2D AutoCAD Designing",
         description:"Bring your imagination to life through precision drafting in AutoCAD! Participants will create technical 2D designs based on real-world themes. Whether it’s architecture or machinery, show off your command of digital design and engineering accuracy.",
         date:"28TH APRIL 2025",
         time:"11:30 AM",

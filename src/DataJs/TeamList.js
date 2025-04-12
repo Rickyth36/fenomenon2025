@@ -282,7 +282,7 @@ export const EventIncharge=[
         img:ryan,
         name:"Kshetrimayum Ryan Singh",
         role:"In-Charge",
-        event:"AutoCAD Designing",
+        event:"2D AutoCAD Designing",
         email:"ryan_ksh21@mtu.ac.in",
         number:"+91 8974524718"
     },

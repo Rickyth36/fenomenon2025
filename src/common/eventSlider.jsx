@@ -8,10 +8,12 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/effect-coverflow';
 
-// import blood_donation from '../assets/events/blood_donation.webp'
+import blood_donation from '../assets/events/blood_donation.webp'
 import enung_sowa from '../assets/events/enung_sowa.webp'
-import meewakching from '../assets/events/meewakchingPoster.webp'
+import meewakching from '../assets/events/meewakching_poster.webp'
 import soraren from '../assets/events/soraren_poster.png'
+import yelhomie from '../assets/events/yelhomie_poster.webp'
+import diana from '../assets/events/diana_poster.webp'
 
 const EventSlider = () => {
   return (
@@ -32,10 +34,10 @@ const EventSlider = () => {
         }}
         speed={2000}
         autoplay={{
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false,
         }}
-        
+        loopPreventsSlide={false}        
         pagination={{ clickable: true }}
         spaceBetween={100} 
         loop={true} // Disable loop
@@ -51,11 +53,11 @@ const EventSlider = () => {
           },
         }}
       >
-        {/* <SwiperSlide className="text-white">
+        <SwiperSlide className="text-white">
           <div className='overflow-hidden rounded-xl w-full  md:w-full md:h-[550px]'>
             <img className='w-full object-cover  rounded-lg' src={blood_donation} alt="" />
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
         <SwiperSlide className="text-white">
           <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
             <img className='w-full object-cover  rounded-lg' src={enung_sowa} alt="" />
@@ -73,12 +75,12 @@ const EventSlider = () => {
         </SwiperSlide>
         <SwiperSlide className="text-white">
           <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
-            <img className='w-full object-cover  rounded-lg' src={soraren} alt="" />
+            <img className='w-full object-cover  rounded-lg' src={yelhomie} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="text-white">
           <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
-            <img className='w-full object-cover  rounded-lg' src={soraren} alt="" />
+            <img className='w-full object-cover  rounded-lg' src={diana} alt="" />
           </div>
         </SwiperSlide>
       </Swiper>    
