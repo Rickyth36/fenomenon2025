@@ -25,7 +25,7 @@ export default function Contact() {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   const options = useMemo(

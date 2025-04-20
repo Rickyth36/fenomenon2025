@@ -11,7 +11,7 @@ function TicketCard(props) {
             </div>
             <p className='bg-gradient-to-r from-[#00ff75] to-[#3c93fc] bg-clip-text text-transparent text-lg md:text-2xl mt-2 py-1 text-center font-bold'>{props.name}</p>
             <p className='text-sm md:text-lg text-center '>{props.role}</p>
-            <p className='bg-gradient-to-r from-[#00ff75] to-[#3c93fc] bg-clip-text text-transparent text-lg md:text-lg mb-1 text-center font-bold'>{props.branch}</p>
+            <p className='bg-gradient-to-r from-[#00ff75] to-[#3c93fc] bg-clip-text text-transparent text-md md:text-lg mb-1 text-center font-bold'>{props.branch}</p>
             <div className='flex space-x-3 items-center justify-center'>
                 <IoIosMail className='text-[#3c93fc] text-xl' />
                 <a href={`mailto: ${props.email}`} className='text-sm md:text-md mb-1 text-center font-medium'>{props.email}</a>

@@ -372,7 +372,7 @@ export const EventIncharge=[
         img:clinton,
         name:"Clinton Thongam",
         role:"In-Charge",
-        event:"Ideathon",
+        event:"Business Idea Competition",
         email:"clinton.th24@mtu.ac.in",
         number:"+91 7085926882"
     },

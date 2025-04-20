@@ -6,7 +6,7 @@ function SponsorCard(props) {
       <div className="sponsorCard2">
         <div className='overflow-hidden bg-white w-[150px] h-[150px] md:w-[180px] mx-auto md:h-[180px] rounded-2xl flex items-center justify-center'>
           <img
-            className='rounded-xl max-w-full max-h-full object-cover'
+            className='max-w-full max-h-full object-cover'
             src={props.img}
             alt={props.name}
           />

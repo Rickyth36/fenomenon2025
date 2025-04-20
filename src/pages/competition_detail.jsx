@@ -26,7 +26,7 @@ function CompetitionDetail() {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   const options = useMemo(
@@ -134,7 +134,10 @@ function CompetitionDetail() {
                             {/* right */}
                             <div className='flex flex-col items-center md:items-start'>
                                 <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-3xl md:text-5xl font-bold text-center md:text-start'>{competition.title}</p>
-                                <p className='mt-5 text-sm md:text-lg text-center text-justify md:text-left'>{competition.description}</p>
+                                {competition.organized_by && (
+                                  <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent mt-5 text-sm md:text-xl text-center text-justify md:text-left'>Organized by {competition.organized_by}</p>
+                                )}
+                                <p className='mt-2 text-sm md:text-lg text-center text-justify md:text-left'>{competition.description}</p>
                                 <div className='flex flex-col md:flex-row mt-3 md:mt-12 gap-6 p-3 md:p-0 bg-zinc-900 md:bg-transparent rounded-md justify-center md:justify-around'>
                                     <div className='flex gap-1 items-center justify-center text-md'> <ImCalendar className='text-blue-500' /><span>{competition.date}</span></div>
                                     {/* <div className='flex gap-1 items-center justify-center text-md'> <FaRegClock className='text-green-500' /><span>{competition.time}</span></div> */}
@@ -149,43 +152,43 @@ function CompetitionDetail() {
                                       {
                                         competition.category.peopleCategory ? (
                                           <div >
-                                            <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl font-bold'>Solo</p>
-                                            <div className='flex gap-4 mt-2'>
+                                            <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl text-center md:text-left font-bold'>Solo</p>
+                                            <div className='flex flex-col md:flex-row items-center gap-4 mt-2'>
                                               <p> 🏆First:{competition.category.solo.cashPrize.first}</p>
                                               <p className={`${competition.category.solo.cashPrize.second ? 'block': 'hidden'}`}> 🥈Second:{competition.category.solo.cashPrize.second}</p>
                                               <p className={`${competition.category.solo.cashPrize.third ? 'block': 'hidden'}`}> 🥉Third:{competition.category.solo.cashPrize.third}</p>
                                               <p className={`${competition.category.solo.cashPrize.consolation ? 'block': 'hidden'}`}  > Consolation:{competition.category.solo.cashPrize.consolation}</p>
                                             </div>
-                                            <p className='mt-2 md:mt-3 text-md md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.solo.fee}</span></p>
+                                            <p className='mt-2 md:mt-3 text-md text-center md:text-left md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.solo.fee}</span></p>
 
-                                            <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl font-bold mt-6'>Group</p>
-                                            <div className='flex gap-4 mt-2'>
+                                            <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl text-center md:text-left font-bold mt-6'>Group</p>
+                                            <div className='flex flex-col md:flex-row items-center gap-4 mt-2'>
                                               <p> 🏆First:{competition.category.group.cashPrize.first}</p>
                                               <p className={`${competition.category.group.cashPrize.second ? 'block': 'hidden'}`}> 🥈Second:{competition.category.group.cashPrize.second}</p>
                                               <p className={`${competition.category.group.cashPrize.third ? 'block': 'hidden'}`}> 🥉Third:{competition.category.group.cashPrize.third}</p>
                                               <p className={`${competition.category.group.cashPrize.consolation ? 'block': 'hidden'}`}  > Consolation:{competition.category.group.cashPrize.consolation}</p>
                                             </div>
-                                            <p className='mt-2 md:mt-3 text-md md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.group.fee}</span></p>
+                                            <p className='mt-2 md:mt-3 text-md text-center md:text-left md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.group.fee}</span></p>
                                           </div>
                                         ):
                                         <div>
 
-                                        <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl font-bold'>Junior (Class III -  VIII)</p>                                          
-                                        <div className='flex gap-4 mt-2'>
+                                        <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl text-center md:text-left font-bold'>Junior (Class III -  VIII)</p>                                          
+                                        <div className='flex flex-col md:flex-row items-center gap-4 mt-2'>
                                           <p> 🏆First{competition.category.junior.cashPrize.first}</p>
                                           <p className={`${competition.category.junior.cashPrize.second ? 'block': 'hidden'}`}> 🥈Second:{competition.category.junior.cashPrize.second}</p>
                                           <p className={`${competition.category.junior.cashPrize.third ? 'block': 'hidden'}`}> 🥉Third:{competition.category.junior.cashPrize.third}</p>
                                           <p className={`${competition.category.junior.cashPrize.consolation ? 'block': 'hidden'}`}  > Consolation:{competition.category.junior.cashPrize.consolation}</p>
                                         </div>
-                                        <p className='mt-2 md:mt-3 text-md md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.junior.fee}</span></p>
-                                        <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl font-bold mt-6'>Senior (Class IX and above)</p>                                          
-                                        <div className='flex gap-4 mt-2'>
+                                        <p className='mt-2 md:mt-3 text-md text-center md:text-left md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.junior.fee}</span></p>
+                                        <p className='bg-gradient-to-r from-[#fb00a0] to-[#821eff] bg-clip-text text-transparent text-2xl text-center md:text-left font-bold mt-6'>Senior (Class IX and above)</p>                                          
+                                        <div className='flex flex-col md:flex-row items-center gap-4 mt-2'>
                                           <p> 🏆First{competition.category.senior.cashPrize.first}</p>
                                           <p className={`${competition.category.senior.cashPrize.second ? 'block': 'hidden'}`}> 🥈Second:{competition.category.senior.cashPrize.second}</p>
                                           <p className={`${competition.category.senior.cashPrize.third ? 'block': 'hidden'}`}> 🥉Third:{competition.category.senior.cashPrize.third}</p>
                                           <p className={`${competition.category.senior.cashPrize.consolation ? 'block': 'hidden'}`}  > Consolation:{competition.category.senior.cashPrize.consolation}</p>
                                         </div>
-                                        <p className='mt-2 md:mt-3 text-md md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.senior.fee}</span></p>
+                                        <p className='mt-2 md:mt-3 text-md text-center md:text-left md:text-lg'>Registration Fee: <span className='font-bold'>{competition.category.senior.fee}</span></p>
                                       </div>                                        
                                       }
                                     </div>

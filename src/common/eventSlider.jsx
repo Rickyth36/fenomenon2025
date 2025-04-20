@@ -11,9 +11,10 @@ import 'swiper/css/effect-coverflow';
 import blood_donation from '../assets/events/blood_donation.webp'
 import enung_sowa from '../assets/events/enung_sowa.webp'
 import meewakching from '../assets/events/meewakching_poster.webp'
-import soraren from '../assets/events/soraren_poster.png'
-import yelhomie from '../assets/events/yelhomie_poster.webp'
+import innocent_eyes from '../assets/events/innocent_eyes_poster.webp'
+import ocean_skies from '../assets/poster/ocean_skies.webp'
 import diana from '../assets/events/diana_poster.webp'
+import yelhomie from '../assets/events/yelhomie_poster.webp'
 
 const EventSlider = () => {
   return (
@@ -70,7 +71,12 @@ const EventSlider = () => {
         </SwiperSlide>
         <SwiperSlide className="text-white">
           <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
-            <img className='w-full object-cover  rounded-lg' src={soraren} alt="" />
+            <img className='w-full object-cover  rounded-lg' src={innocent_eyes} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-white">
+          <div className='overflow-hidden rounded-xl w-full h-[auto]  md:w-full md:h-[550px]'>
+            <img className='w-full object-cover  rounded-lg' src={ocean_skies} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="text-white">

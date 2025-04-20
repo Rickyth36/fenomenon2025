@@ -1596,9 +1596,10 @@ export const CompetitionList=[
 
     {
         id:25,
-        name:"Ideathon",
+        name:"Business Idea Competition",
         img:ideathon,
-        title:"Ideathon",
+        title:"Business Idea Competition",
+        organized_by:"Management Department",
         description:"Pitch it like a pro! Present innovative business models that are impactful, feasible and future-ready. From tech startups to social solutions, convince the judges why your idea is the next big thing.",
         date:"29TH APRIL 2025",
         time:"11:00 AM",

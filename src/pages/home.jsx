@@ -250,7 +250,7 @@ export default function Home(){
                   allSponsorList.map((item,index)=>(
                     <div key={index} className='mx-10 overflow-hidden bg-white w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded-full flex items-center justify-center'>
                     <img
-                      className='rounded-xl max-w-full max-h-full object-cover'
+                      className='w-32 max-h-full object-cover'
                       src={item.img}
                       alt={item.name}
                     />
