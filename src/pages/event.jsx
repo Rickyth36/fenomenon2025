@@ -177,7 +177,7 @@ const Event = () => {
             <div>
               <p className='text-3xl md:text-5xl px-4 py-5 text-center font-bold'>Performing Artists</p>
               {/* <div className='mt-4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-y-5  place-items-center  '> */}
-              <div className='flex flex-col gap-10 md:flex-row items-center justify-center mx-auto'>
+              <div className='flex flex-col flex-wrap gap-10 md:flex-row items-center justify-center mx-auto'>
                 <EventCard img={diana} name="Diana Moirangthem"/>
                 <EventCard img={yelhomie} name="Yelhomie"/>
               </div>
@@ -185,8 +185,8 @@ const Event = () => {
 
             <div className='my-20'>
               <p className='text-3xl md:text-5xl px-4 py-5 text-center font-bold'>Performing Bands</p>
-              <div className='mt-4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-y-10  place-items-center '>
-              {/* <div className='flex mt-4 flex-col md:flex-row gap-8 md:gap-20 items-center justify-center'> */}
+              {/* <div className='mt-4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-y-10  place-items-center '> */}
+              <div className='flex flex-wrap mt-4 flex-col md:flex-row gap-8 md:gap-20 items-center justify-center'>
                 <EventCard img={innocent_eyes} name="Innocent Eyes"/>
                 <EventCard img={meewakching} name="Meewakching"/>
                 <EventCard img={ocean_skies} name="Ocean Skies"/>

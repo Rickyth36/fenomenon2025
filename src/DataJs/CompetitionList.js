@@ -41,7 +41,7 @@ export const CompetitionList=[
             first: "₹8000",
             second: "₹5000",
             third: "₹3000",
-            consolation: null
+            consolation: "₹2000(best costume)"
         },       
         
         isCategorized:false,
@@ -85,7 +85,7 @@ export const CompetitionList=[
                 fee:null
             }
         },
-        fee:"₹400",
+        fee:"₹200",
         incharge:"Alonika Langhu",
         contact:"+91 8787682353",
         deadline:"26th April, 2025",
@@ -288,7 +288,7 @@ export const CompetitionList=[
         fee:"₹700",
         incharge:"Longjam Venus Singh",
         contact:"+91 7005068545",
-        deadline:"22nd April, 2025(Qualifying rounds will be started on 23rd April online)",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/7rRuSqxWPkuFTeMt9",
         guidelines:"https://docs.google.com/document/d/e/2PACX-1vRT2wEYj6g5ovYBsO1tm61Q-bS9GC0hQbud3wRc2Jm4Godzawpph40sO7WzPCzmzA/pub",
     },
@@ -353,7 +353,7 @@ export const CompetitionList=[
         fee:"₹800",
         incharge:"Konsam Bikash Singh",
         contact:"+91 9863124645",
-        deadline:"22nd April, 2025 (Qualifying rounds will be started on 25th,26th and 27th April online)",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/1bWsgpynATNehzMNA",
         guidelines:"https://docs.google.com/document/d/e/2PACX-1vSxEbvvDhZKhZNEZ_5-4TskDGy3HBQRFz0Wq17aXgfYJ73KUAC8Rf1iKsNc5h6kDA/pub",
     },
@@ -431,7 +431,7 @@ export const CompetitionList=[
         description:"Unleash your rhythm and set the stage on fire at FENOMENON’s Dance Competition! Whether you groove solo or move as a team, this is your chance to captivate the crowd with breathtaking performances. Choose your style—Cultural, Modern or K-Pop—and bring your A-game to the ultimate dance showdown. Get ready to mesmerize, compete and own the spotlight!",
         date:"29TH APRIL 2025",
         time:"10:00 AM",
-        venue:"MANIPUR TECHNICAL UNIVERSITY CAMPUS",
+        venue:"MANIPUR TECHNICAL UNIVERSITY NEW BLOCK",
         cashPrize: {
             first: null,
             second: null,
@@ -483,7 +483,7 @@ export const CompetitionList=[
         fee:null,
         incharge:"Krishnakanta Soibam",
         contact:"+91 9362658468",
-        deadline:"24th April, 2025",
+        deadline:"26th April, 2025",
         registration:"https://forms.gle/Md3eS4Q8bnjFLNdR7",
         guidelines:"https://docs.google.com/document/d/e/2PACX-1vTsLuSJgU1t3lB8fCalPC2_fjW62BD126DFuWtnpvnq_ABfYMEk_TJVi8KjIny7CA/pub",
     },

@@ -3,7 +3,7 @@ import Upsection from '../common/upSection'
 import { UpsectionContent } from '../DataJs/upSecData'
 import Particles, { initParticlesEngine } from "@tsparticles/react"
 import { loadSlim } from "@tsparticles/slim"
-import { allSponsorList } from '../DataJs/SponsorList'
+import { associateSponsorList, coTitleSponsorList, supportingSponsorList, titleSponsorList } from '../DataJs/SponsorList'
 import SponsorCard from '../common/sponsorCard'
 
 function Team() {
@@ -106,22 +106,54 @@ function Team() {
       <Upsection title={UpsectionContent[3].title} description={UpsectionContent[3].description}  /> 
       <div className='h-36 md:h-12'></div>  
       <div className='relative p-4'>
-        <div className='mt-7'>
+        <div>
           <div>
-            <p className='text-3xl text-white md:text-5xl text-center mb-3 md:mb-9 font-bold'>Our Sponsors</p>
-            <div className='mx-auto grid grid-cols-1 md:grid-cols-5 p-5 gap-y-4 md:gap-y-10 gap-x-1 justify-center items-center place-items-center '>
-            {/* <div className='mx-auto flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0 items-center justify-center'> */}
+            <p className='text-3xl text-white md:text-5xl text-center md:mb-9 font-bold'>Title Sponsors</p>
+            {/* <div className='mx-auto grid grid-cols-1 md:grid-cols-5 p-5 gap-y-4 md:gap-y-10 gap-x-1 justify-center items-center place-items-center '> */}
+            <div className='mx-auto flex flex-col flex-wrap md:flex-row gap-5 md:gap-10 md:gap-7 items-center justify-center'>
               {
-                allSponsorList.map((item,index)=>(
+                titleSponsorList.map((item,index)=>(
                   <SponsorCard key={index} img={item.img} name={item.name} />
                 ))
               }              
             </div>
           </div>
-          
-          
-
-
+        </div>
+        <div className='mt-7 md:mt-28'>
+          <div>
+            <p className='text-3xl text-white md:text-5xl text-center md:mb-9 font-bold'>Co-Title Sponsors</p>
+            <div className='mx-auto flex flex-col flex-wrap md:flex-row gap-5 md:gap-10 md:gap-7 items-center justify-center'>
+              {
+                coTitleSponsorList.map((item,index)=>(
+                  <SponsorCard key={index} img={item.img} name={item.name} />
+                ))
+              }              
+            </div>
+          </div>
+        </div>
+        <div className='mt-7 md:mt-28'>
+          <div>
+            <p className='text-3xl text-white md:text-5xl text-center md:mb-9 font-bold'>Associate Sponsors</p>
+            <div className='mx-auto flex flex-col flex-wrap md:flex-row gap-5 md:gap-10 md:gap-7 items-center justify-center'>
+              {
+                associateSponsorList.map((item,index)=>(
+                  <SponsorCard key={index} img={item.img} name={item.name} />
+                ))
+              }              
+            </div>
+          </div>
+        </div>
+        <div className='mt-7 md:mt-28'>
+          <div>
+            <p className='text-3xl text-white md:text-5xl text-center md:mb-9 font-bold'>Supporting Sponsors</p>
+            <div className='mx-auto flex flex-col flex-wrap md:flex-row gap-5 md:gap-10 items-center justify-center'>
+              {
+                supportingSponsorList.map((item,index)=>(
+                  <SponsorCard key={index} img={item.img} name={item.name} />
+                ))
+              }              
+            </div>
+          </div>
         </div>
       </div>
     </div>
